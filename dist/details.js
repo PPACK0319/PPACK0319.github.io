@@ -18,6 +18,8 @@
     .replace(/MZ하지 않은 엠제트/g, 'MZ하지\u00a0않은\u00a0엠제트')
     .replace(/(^|[\s(])(팀|및) (?=\S)/g, '$1$2\u00a0')
     .replace(/‘[^’]{1,14}’/g, (quote) => quote.replace(/ /g, '\u00a0'))
+    .replace(/’(?=[가-힣])/g, '’\u2060')
+    .replace(/ (역할?)(?=으로|로|을|를|이|은)/g, '\u00a0$1')
     .replace(/그 결과/g, '그\u00a0결과')
     .replace(/([A-Za-z0-9])-(?=[A-Za-z0-9가-힣])/g, '$1-\u2060')
     .replace(/20\+ 뛰어요/g, '20+\u00a0뛰어요');

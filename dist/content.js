@@ -191,6 +191,110 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
+          "src": "./assets/media/team-mate-ceremony-group-wave-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
+          "caption": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-group-candid-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 단체촬영을 준비하는 현장",
+          "caption": "4기 수료식 · 단체촬영을 준비하는 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-close-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
+          "caption": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-script-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
+          "caption": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-stage-alt-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
+          "caption": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-portrait-v1.webp",
+          "width": 1280,
+          "height": 1920,
+          "alt": "4기 수료식 · 멘토·멘티와 교류하는 모습",
+          "caption": "4기 수료식 · 멘토·멘티와 교류하는 모습",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-table-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 혼합조 네트워킹 현장",
+          "caption": "4기 수료식 · 혼합조 네트워킹 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-table-group-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
+          "caption": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-certificate-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 수료증 전달",
+          "caption": "4기 수료식 · 수료증 전달",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-a-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 1",
+          "caption": "4기 수료식 · 팀별 기념촬영 1",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-b-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 2",
+          "caption": "4기 수료식 · 팀별 기념촬영 2",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-c-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 3",
+          "caption": "4기 수료식 · 팀별 기념촬영 3",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-photo-pair-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 행사 후 함께 남긴 기념사진",
+          "caption": "4기 수료식 · 행사 후 함께 남긴 기념사진",
+          "kind": "photo"
+        },
+        {
           "src": "./assets/media/team-mate-support-primary-collage-v13.webp",
           "width": 1600,
           "height": 1603,
@@ -314,6 +418,19 @@ window.PORTFOLIO_CONTENT = {
             "team-mate-ceremony-stage-v1.webp",
             "team-mate-ceremony-host-collage-v1.webp",
             "team-mate-ceremony-networking-collage-v1.webp",
+            "team-mate-ceremony-group-wave-v1.webp",
+            "team-mate-ceremony-group-candid-v1.webp",
+            "team-mate-ceremony-mc-close-v1.webp",
+            "team-mate-ceremony-mc-script-v1.webp",
+            "team-mate-ceremony-mc-stage-alt-v1.webp",
+            "team-mate-ceremony-network-portrait-v1.webp",
+            "team-mate-ceremony-network-table-v1.webp",
+            "team-mate-ceremony-network-table-group-v1.webp",
+            "team-mate-ceremony-certificate-v1.webp",
+            "team-mate-ceremony-team-photo-a-v1.webp",
+            "team-mate-ceremony-team-photo-b-v1.webp",
+            "team-mate-ceremony-team-photo-c-v1.webp",
+            "team-mate-ceremony-photo-pair-v1.webp",
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",
@@ -1454,6 +1571,110 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
+          "src": "./assets/media/team-mate-ceremony-group-wave-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
+          "caption": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-group-candid-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 단체촬영을 준비하는 현장",
+          "caption": "4기 수료식 · 단체촬영을 준비하는 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-close-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
+          "caption": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-script-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
+          "caption": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-mc-stage-alt-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
+          "caption": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-portrait-v1.webp",
+          "width": 1280,
+          "height": 1920,
+          "alt": "4기 수료식 · 멘토·멘티와 교류하는 모습",
+          "caption": "4기 수료식 · 멘토·멘티와 교류하는 모습",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-table-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 혼합조 네트워킹 현장",
+          "caption": "4기 수료식 · 혼합조 네트워킹 현장",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-network-table-group-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
+          "caption": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-certificate-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 수료증 전달",
+          "caption": "4기 수료식 · 수료증 전달",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-a-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 1",
+          "caption": "4기 수료식 · 팀별 기념촬영 1",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-b-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 2",
+          "caption": "4기 수료식 · 팀별 기념촬영 2",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-team-photo-c-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 팀별 기념촬영 3",
+          "caption": "4기 수료식 · 팀별 기념촬영 3",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-photo-pair-v1.webp",
+          "width": 1920,
+          "height": 1280,
+          "alt": "4기 수료식 · 행사 후 함께 남긴 기념사진",
+          "caption": "4기 수료식 · 행사 후 함께 남긴 기념사진",
+          "kind": "photo"
+        },
+        {
           "src": "./assets/media/team-mate-oneteam-group-v10.webp",
           "width": 1600,
           "height": 1067,
@@ -1558,6 +1779,19 @@ window.PORTFOLIO_CONTENT = {
             "team-mate-ceremony-stage-v1.webp",
             "team-mate-ceremony-host-collage-v1.webp",
             "team-mate-ceremony-networking-collage-v1.webp",
+            "team-mate-ceremony-group-wave-v1.webp",
+            "team-mate-ceremony-group-candid-v1.webp",
+            "team-mate-ceremony-mc-close-v1.webp",
+            "team-mate-ceremony-mc-script-v1.webp",
+            "team-mate-ceremony-mc-stage-alt-v1.webp",
+            "team-mate-ceremony-network-portrait-v1.webp",
+            "team-mate-ceremony-network-table-v1.webp",
+            "team-mate-ceremony-network-table-group-v1.webp",
+            "team-mate-ceremony-certificate-v1.webp",
+            "team-mate-ceremony-team-photo-a-v1.webp",
+            "team-mate-ceremony-team-photo-b-v1.webp",
+            "team-mate-ceremony-team-photo-c-v1.webp",
+            "team-mate-ceremony-photo-pair-v1.webp",
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",

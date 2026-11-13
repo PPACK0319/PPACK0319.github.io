@@ -159,6 +159,14 @@ window.PORTFOLIO_CONTENT = {
           "kind": "slide"
         },
         {
+          "src": "./assets/media/team-mate-ceremony-group-v1.webp",
+          "width": 1920,
+          "height": 1100,
+          "alt": "Team-Mate 4기 수료식에서 수료증을 들고 함께 모인 멘토·멘티와 운영진",
+          "caption": "4기 수료식 · 수료증을 들고 함께 남긴 단체사진",
+          "kind": "photo"
+        },
+        {
           "src": "./assets/media/team-mate-ceremony-stage-v1.webp",
           "width": 1920,
           "height": 1280,
@@ -302,6 +310,7 @@ window.PORTFOLIO_CONTENT = {
           ],
           "imageFiles": [
             "team-mate-logo-tight-v13.png",
+            "team-mate-ceremony-group-v1.webp",
             "team-mate-ceremony-stage-v1.webp",
             "team-mate-ceremony-host-collage-v1.webp",
             "team-mate-ceremony-networking-collage-v1.webp",
@@ -1413,6 +1422,14 @@ window.PORTFOLIO_CONTENT = {
           "kind": "slide"
         },
         {
+          "src": "./assets/media/team-mate-ceremony-group-v1.webp",
+          "width": 1920,
+          "height": 1100,
+          "alt": "Team-Mate 4기 수료식에서 수료증을 들고 함께 모인 멘토·멘티와 운영진",
+          "caption": "4기 수료식 · 수료증을 들고 함께 남긴 단체사진",
+          "kind": "photo"
+        },
+        {
           "src": "./assets/media/team-mate-ceremony-stage-v1.webp",
           "width": 1920,
           "height": 1280,
@@ -1537,6 +1554,7 @@ window.PORTFOLIO_CONTENT = {
           ],
           "imageFiles": [
             "team-mate-logo-tight-v13.png",
+            "team-mate-ceremony-group-v1.webp",
             "team-mate-ceremony-stage-v1.webp",
             "team-mate-ceremony-host-collage-v1.webp",
             "team-mate-ceremony-networking-collage-v1.webp",

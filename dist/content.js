@@ -175,11 +175,11 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
-          "src": "./assets/media/team-mate-venue-collage-v13.webp",
-          "width": 2000,
+          "src": "./assets/media/team-mate-oneteam-field-v2.webp",
+          "width": 998,
           "height": 666,
-          "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사장 전경 / 참가자 입장 전 원형 테이블과 스크린, 마이크를 설치한 원팀데이 행사장",
-          "caption": "원팀데이 행사장 전경",
+          "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사 진행 장면. 참가자 얼굴은 모자이크 처리",
+          "caption": "원팀데이 행사 진행 현장",
           "kind": "photo"
         },
         {
@@ -272,7 +272,7 @@ window.PORTFOLIO_CONTENT = {
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",
-            "team-mate-venue-collage-v13.webp",
+            "team-mate-oneteam-field-v2.webp",
             "team-mate-ceremony-host-v2.webp",
             "team-mate-ceremony-atmosphere-v2.webp"
           ]
@@ -1401,11 +1401,11 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
-          "src": "./assets/media/team-mate-venue-collage-v13.webp",
-          "width": 2000,
+          "src": "./assets/media/team-mate-oneteam-field-v2.webp",
+          "width": 998,
           "height": 666,
-          "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사장 전경 / 참가자 입장 전 원형 테이블과 스크린, 마이크를 설치한 원팀데이 행사장",
-          "caption": "원팀데이 행사장 전경",
+          "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사 진행 장면. 참가자 얼굴은 모자이크 처리",
+          "caption": "원팀데이 행사 진행 현장",
           "kind": "photo"
         },
         {
@@ -1471,7 +1471,7 @@ window.PORTFOLIO_CONTENT = {
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",
-            "team-mate-venue-collage-v13.webp",
+            "team-mate-oneteam-field-v2.webp",
             "team-mate-ceremony-host-v2.webp",
             "team-mate-ceremony-atmosphere-v2.webp"
           ],

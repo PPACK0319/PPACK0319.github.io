@@ -126,8 +126,11 @@
       let maxLeft = 0;
       let dragFrame = 0;
       let dragLeft = 0;
+      let glide = null;
       const clamp = (left) => Math.max(0,Math.min(maxLeft,left));
-      const nearest = (left) => offsets.reduce((best,offset,index) => Math.abs(offset-left)<Math.abs(offsets[best]-left) ? index : best,0);
+      const atEnd = (left) => maxLeft > 0 && left >= maxLeft-2;
+      // The last few slides share the final scroll position; there the last slide counts as current.
+      const nearest = (left) => atEnd(left) ? slides.length-1 : offsets.reduce((best,offset,index) => Math.abs(offset-left)<Math.abs(offsets[best]-left) ? index : best,0);
       const controls = () => {
         const label = `${active+1} / ${slides.length}`;
         if (count.textContent !== label) count.textContent = label;
@@ -135,10 +138,19 @@
         if (next.disabled !== (active === slides.length-1)) next.disabled = active === slides.length-1;
       };
       const update = () => {
-        if (!offsets.length) return;
-        const left = track.scrollLeft;
-        active = nearest(left);
+        if (!offsets.length || glide) return;
+        active = nearest(track.scrollLeft);
         controls();
+      };
+      // Snapping stays off until a button glide has actually arrived; turning it back on mid-glide
+      // made the browser snap back to the old slide.
+      const endGlide = () => {
+        if (!glide) return;
+        clearTimeout(glide.timer);
+        if (Math.abs(track.scrollLeft-glide.left)>2) track.scrollTo({left:glide.left,behavior:'instant'});
+        glide = null;
+        track.classList.remove('is-gliding');
+        update();
       };
       const measure = () => {
         cancelAnimationFrame(measureFrame);
@@ -151,35 +163,46 @@
       const scheduleMeasure = () => { if (!measureFrame) measureFrame = requestAnimationFrame(measure); };
       const settle = () => {
         if (start) return;
-        track.classList.remove('is-gliding');
+        if (glide) { if (Math.abs(track.scrollLeft-glide.left)<=2) endGlide(); return; }
         update();
       };
-      const go = (index) => {
+      const go = (index,step=0) => {
         if (!offsets.length) measure();
-        const target = Math.max(0,Math.min(slides.length-1,index));
-        active = target;
-        controls();
+        let target = Math.max(0,Math.min(slides.length-1,index));
+        const here = glide ? glide.left : track.scrollLeft;
+        // Every press moves the strip: skip slides that sit at the position already shown.
+        if (step>0) while (target<slides.length-1 && offsets[target]<=here+2) target++;
+        if (step<0) while (target>0 && offsets[target]>=here-2) target--;
         const left = offsets[target];
+        active = atEnd(left) ? slides.length-1 : target;
+        controls();
+        if (glide) clearTimeout(glide.timer);
         track.classList.add('is-gliding');
+        glide = {left,timer:setTimeout(endGlide,900)};
         track.scrollTo({left,behavior:reducedMotion() ? 'instant' : 'smooth'});
-        clearTimeout(settleTimer);
-        settleTimer = setTimeout(settle,150);
+        if (Math.abs(track.scrollLeft-left)<=2) endGlide();
         return target;
       };
-      prev.addEventListener('click',() => go(active-1),on);
-      next.addEventListener('click',() => go(active+1),on);
-      track.addEventListener('scroll',() => { clearTimeout(settleTimer); settleTimer = setTimeout(settle,150); },{...on,passive:true});
+      prev.addEventListener('click',() => go(active-1,-1),on);
+      next.addEventListener('click',() => go(active+1,1),on);
+      track.addEventListener('scroll',() => {
+        clearTimeout(settleTimer);
+        settleTimer = setTimeout(settle,150);
+        if (glide && Math.abs(track.scrollLeft-glide.left)<=2) endGlide();
+      },{...on,passive:true});
       track.addEventListener('scrollend',settle,on);
       track.addEventListener('keydown',(event) => {
         if (!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
         event.preventDefault();
-        const target = go(event.key === 'Home' ? 0 : event.key === 'End' ? slides.length-1 : active + (event.key === 'ArrowRight' ? 1 : -1));
+        const step = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0;
+        const target = go(event.key === 'Home' ? 0 : event.key === 'End' ? slides.length-1 : active+step,step);
         if (event.target.closest('.case-image-button')) slides[target].querySelector('.case-image-button').focus({preventScroll:true});
       },on);
       track.addEventListener('pointerdown',(event) => {
         if (event.pointerType !== 'mouse' || event.button !== 0) return;
         if (!offsets.length) measure();
         clearTimeout(settleTimer);
+        if (glide) { clearTimeout(glide.timer); glide = null; track.classList.remove('is-gliding'); }
         const left = track.scrollLeft;
         track.scrollTo({left,behavior:'instant'});
         start = {x:event.clientX,y:event.clientY,left,id:event.pointerId,lastX:event.clientX,lastTime:performance.now(),velocity:0};
@@ -237,7 +260,7 @@
       observer.observe(track);
       window.addEventListener('resize',scheduleMeasure,on);
       controls();
-      galleryDisposers.push(() => { clearTimeout(settleTimer); cancelAnimationFrame(measureFrame); cancelAnimationFrame(dragFrame); observer.disconnect(); local.abort(); });
+      galleryDisposers.push(() => { clearTimeout(settleTimer); clearTimeout(glide?.timer); cancelAnimationFrame(measureFrame); cancelAnimationFrame(dragFrame); observer.disconnect(); local.abort(); });
     }
 
     function activate(index,focus) {

@@ -4,7 +4,7 @@ window.PORTFOLIO_CONTENT = {
     "englishName": "Park JungHun",
     "education": "건국대학교 지리학과 / 기술경영학과 복수전공",
     "gpa": "4.09 / 4.50",
-    "gpaNote": "이력서 기준"
+    "gpaNote": ""
   },
   "experiences": [
     {
@@ -16,7 +16,7 @@ window.PORTFOLIO_CONTENT = {
       "organization": "대한상공회의소 인력개발사업단",
       "summary": "KDT·K-뉴딜 참여청년을 위한 Team-Mate 멘토멘티단과 취업캠프를 맡아, 기획과 품의부터 현장 운영과 결과보고까지 경험했습니다. Team-Mate 4기 수료식에서는 직접 사회도 맡았습니다.",
       "background": "대한상공회의소 인력개발사업단 현장실습에서 한 일은 크게 세 가지였습니다. KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 이어서 돕는 Team-Mate 멘토멘티단과 취업캠프, 그리고 사업 운영에 필요한 교육행정입니다.",
-      "role": "Team-Mate 멘토멘티단·취업캠프 기획과 예산·품의자료 작성, 현장 운영, 사후 증빙과 결과보고. 4기 수료식 사회와 교육운영 행정 지원.",
+      "role": "Team-Mate 멘토멘티단·취업캠프 기획과 예산·품의자료 작성, 현장 운영, 사후 증빙과 결과보고. 4기 수료식 사회와 교육운영 행정 지원.",
       "outcomes": [
         "Team-Mate: 회고 원고와 활동비 품의·증빙, 원팀데이 운영자료, 수료식 기획안·사회자 대본·결과보고서",
         "취업캠프: 세 차례 운영자료·홍보 문안·운영비 품의자료, 9월 결과보고, 10월 결과·증빙 합본",
@@ -147,7 +147,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1067,
           "alt": "Team-Mate 원팀데이 현수막 아래 참가자들이 함께 모인 전체 단체사진",
-          "caption": "2026 Team-Mate 원팀데이 전체 단체사진",
+          "caption": "2026 원팀데이 단체사진",
           "kind": "photo"
         },
         {
@@ -155,151 +155,15 @@ window.PORTFOLIO_CONTENT = {
           "width": 1132,
           "height": 689,
           "alt": "하늘색 그라데이션 team과 검정 계열 mate 글자가 있는 Team-Mate 원색 로고",
-          "caption": "Team-Mate 원색 로고",
+          "caption": "Team-Mate 로고",
           "kind": "slide"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-v1.webp",
-          "width": 1920,
-          "height": 1100,
-          "alt": "Team-Mate 4기 수료식에서 수료증을 들고 함께 모인 멘토·멘티와 운영진",
-          "caption": "4기 수료식 · 수료증을 들고 함께 남긴 단체사진",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-stage-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "Team-Mate 4기 수료식 사회를 맡아 프로그램을 진행하는 모습",
-          "caption": "4기 수료식 · 사회 및 프로그램 진행",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-host-collage-v1.webp",
-          "width": 1920,
-          "height": 1080,
-          "alt": "마이크와 사회자 대본을 들고 수료식 순서를 안내하는 두 장면",
-          "caption": "4기 수료식 · 대본을 바탕으로 순서·발표 연결",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-networking-collage-v1.webp",
-          "width": 1920,
-          "height": 1080,
-          "alt": "갈색 셔츠를 입고 교류하는 모습과 혼합조 네트워킹 현장. 다른 참가자 얼굴은 모자이크 처리",
-          "caption": "4기 수료식 · 혼합조 네트워킹과 멘토·멘티 교류",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-wave-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
-          "caption": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-candid-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 단체촬영을 준비하는 현장",
-          "caption": "4기 수료식 · 단체촬영을 준비하는 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-close-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
-          "caption": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-script-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
-          "caption": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-stage-alt-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
-          "caption": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-portrait-v1.webp",
-          "width": 1280,
-          "height": 1920,
-          "alt": "4기 수료식 · 멘토·멘티와 교류하는 모습",
-          "caption": "4기 수료식 · 멘토·멘티와 교류하는 모습",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-table-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 혼합조 네트워킹 현장",
-          "caption": "4기 수료식 · 혼합조 네트워킹 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-table-group-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
-          "caption": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-certificate-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 수료증 전달",
-          "caption": "4기 수료식 · 수료증 전달",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-a-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 1",
-          "caption": "4기 수료식 · 팀별 기념촬영 1",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-b-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 2",
-          "caption": "4기 수료식 · 팀별 기념촬영 2",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-c-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 3",
-          "caption": "4기 수료식 · 팀별 기념촬영 3",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-photo-pair-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 행사 후 함께 남긴 기념사진",
-          "caption": "4기 수료식 · 행사 후 함께 남긴 기념사진",
-          "kind": "photo"
         },
         {
           "src": "./assets/media/team-mate-support-primary-collage-v13.webp",
           "width": 1600,
           "height": 1603,
           "alt": "참가자 테이블에 필기구를 배부하는 운영지원 장면 / 참가자 테이블에서 자료를 안내하는 운영지원 장면 / 운영진이 자료를 보며 행사 진행을 협의하는 장면",
-          "caption": "참가자 테이블에 필기구를 배부하는 운영지원 장면 / 참가자 테이블에서 자료를 안내하는 운영지원 장면 / 운영진이 자료를 보며 행사 진행을 협의하는 장면",
+          "caption": "원팀데이 현장 운영지원",
           "kind": "photo"
         },
         {
@@ -307,7 +171,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1603,
           "alt": "행사 시작 전 자료와 마이크를 점검하는 장면 / 연단 옆 노트북을 확인하며 통화하는 운영지원 장면 / 참가자 테이블에서 안내하는 운영지원 장면",
-          "caption": "행사 시작 전 자료와 마이크를 점검하는 장면 / 연단 옆 노트북을 확인하며 통화하는 운영지원 장면 / 참가자 테이블에서 안내하는 운영지원 장면",
+          "caption": "원팀데이 행사 준비",
           "kind": "photo"
         },
         {
@@ -315,7 +179,23 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 666,
           "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사장 전경 / 참가자 입장 전 원형 테이블과 스크린, 마이크를 설치한 원팀데이 행사장",
-          "caption": "2026 Team-Mate 원팀데이 행사 전경 / 원팀데이 행사장 구성과 준비",
+          "caption": "원팀데이 행사장 전경",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-host-v2.webp",
+          "width": 1600,
+          "height": 1603,
+          "alt": "Team-Mate 4기 수료식 무대에서 사회를 보는 모습 / 마이크를 들고 순서를 안내하는 모습 / 사회자 대본을 보며 진행하는 모습",
+          "caption": "4기 수료식 사회",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-atmosphere-v2.webp",
+          "width": 1600,
+          "height": 1603,
+          "alt": "수료증을 받은 멘토·멘티로 가득 찬 4기 수료식 행사장 / 다른 팀 멘토·멘티가 섞여 앉은 혼합조 네트워킹 테이블 / 타 팀 네트워킹 화면 앞에서 남긴 기념사진. 다른 참가자 얼굴은 모자이크 처리",
+          "caption": "4기 수료식 행사 현장",
           "kind": "photo"
         },
         {
@@ -323,7 +203,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 2000,
           "alt": "2026년 8월 자기소개서, 9월 AI, 10월 클라우드, 11월 PM·기획 취업캠프 정사각형 홍보물 4종",
-          "caption": "2026년 8~11월 취업캠프 홍보물 제작",
+          "caption": "8~11월 취업캠프 홍보물",
           "kind": "slide"
         },
         {
@@ -331,7 +211,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1400,
           "height": 1050,
           "alt": "10월 클라우드·SAP 대한상공회의소 취업캠프 화면 앞에 함께 모인 참가자 단체사진",
-          "caption": "2026년 10월 클라우드·SAP 취업캠프 단체사진 · 결과보고 수록",
+          "caption": "10월 취업캠프 단체사진",
           "kind": "photo"
         },
         {
@@ -339,7 +219,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 561,
           "alt": "2026 대한상공회의소 취업캠프의 디지털 분야 취업 지원과 정기 일정을 소개하는 슬라이드 / 현직자 특강과 쉬는 시간, 네트워킹 순서를 안내하는 취업캠프 일정 슬라이드",
-          "caption": "8월 취업캠프 운영 PPT: 프로그램 소개 / 8월 취업캠프 운영 PPT: 일정 안내",
+          "caption": "취업캠프 운영 PPT",
           "kind": "slide"
         },
         {
@@ -347,94 +227,54 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 748,
           "alt": "클라우드·SAP 취업캠프에서 강의를 듣는 참가자들과 대형 스크린 / 테이블을 마주 보고 대화하는 취업캠프 참가자들",
-          "caption": "10월 클라우드·SAP 취업캠프 강의 현장 / 10월 취업캠프 참가자 네트워킹",
+          "caption": "10월 취업캠프 강의와 네트워킹",
           "kind": "photo"
         }
       ],
-      "takeaway": "Team-Mate 4기 운영과 원팀데이·수료식, 취업캠프 기획을 맡았고, 출결확인서와 참여확인서 발급을 자동화했습니다.",
+      "takeaway": "Team-Mate 4기 운영과 취업캠프 기획, 4기 수료식 사회를 맡았고, 출결확인서와 참여확인서 발급을 자동화했습니다.",
       "format": "인턴(현장실습)",
       "detailGroups": [
         {
           "id": "team-mate",
           "label": "Team-Mate 4기",
           "summary": "KDT·K-뉴딜 참여청년이 교육을 마친 뒤에도 멘토와 한 팀이 되어 취업을 준비하는 프로그램입니다. 4기에는 19명이 5개 팀으로 참여했습니다.",
-          "role": "Team-Mate 4기의 예산과 품의, 자율활동비 지원, 활동 기록 정리를 맡았습니다. 원팀데이를 기획하고, 4기 수료식은 프로그램 준비부터 직접 사회와 현장 운영, 결과보고까지 담당했습니다.",
+          "role": "Team-Mate 4기의 예산과 품의, 자율활동비 지원, 활동 기록 정리를 맡았습니다. 원팀데이를 기획했고, 4기 수료식은 프로그램을 짜고 당일 사회를 본 뒤 결과보고까지 했습니다.",
           "sections": [
             {
               "title": "예산·품의와 결과보고",
               "items": [
                 "자율활동비는 연초에 편성된 예산을 기준으로 신청 내역과 증빙을 하나씩 대조해 품의자료를 만들었습니다.",
-                "5개 팀의 활동은 매달 회고 원고로 정리했고, 결과보고 자료와 증빙은 한곳에 모아 아카이빙했습니다. 5개 팀 모두 끝까지 활동을 마쳤습니다."
+                "5개 팀의 활동은 매달 회고 원고로 정리했고, 결과보고 자료와 증빙은 한곳에 모아 두었습니다. 5개 팀 모두 끝까지 활동을 마쳤습니다."
               ]
             },
             {
               "title": "2026 원팀데이",
               "items": [
-                "9월 22일 코엑스에서 제3회 사회적가치페스타 청년일자리포럼과 연계해 열렸고, Team-Mate 1~4기 멘토·멘티 33명이 참석했습니다.",
-                "사전 관심사를 바탕으로 한 1:1 로테이션 네트워킹, 주제별 자유 네트워킹과 만찬 교류로 프로그램을 직접 짰습니다. 코엑스 행사장 대관과 케이터링·사회자·촬영 섭외를 맡았습니다."
+                "원팀데이는 9월 22일 코엑스에서 제3회 사회적가치페스타 청년일자리포럼과 연계해 열렸고, Team-Mate 1~4기 멘토·멘티 33명이 참석했습니다.",
+                "미리 받은 관심사로 짝을 지은 1:1 로테이션 네트워킹, 주제별 자유 네트워킹, 만찬 교류로 프로그램을 짰습니다. 행사장 대관과 케이터링, 사회자, 촬영 섭외도 맡았습니다."
               ]
             },
             {
-              "title": "Team-Mate 4기 수료식 · 2026.11",
+              "title": "4기 수료식",
               "items": [
-                "멘토링 활동을 돌아보고 다른 팀과도 교류할 수 있도록 팀별 회고 발표와 칭찬 사연 소개, 혼합조 네트워킹을 구성했습니다.",
-                "다른 팀과도 이야기하고 싶다는 요청을 반영해 일상 속 주제로 대화하는 시간을 만들고, 주제 안내판과 진행 PPT, 사회자 대본을 준비했습니다.",
-                "직접 사회를 보며 팀별 발표와 프로그램 사이를 연결했습니다. 네트워킹 방법과 자리 이동을 안내하고 교류 시간을 진행했습니다.",
-                "수료증·기념품 전달과 기념촬영도 순서에 맞춰 진행했습니다.",
-                "행사 후 현장을 정리하고, 참석 현황과 프로그램 진행 내용, 지출 내역을 결과보고서로 정리했습니다."
-              ],
-              "subsections": [
-                {
-                  "title": "프로그램 기획·준비",
-                  "items": [
-                    "멘토링 활동을 돌아보고 다른 팀과도 교류할 수 있도록 팀별 회고 발표와 칭찬 사연 소개, 혼합조 네트워킹을 구성했습니다.",
-                    "다른 팀과도 이야기하고 싶다는 요청을 반영해 일상 속 주제로 대화하는 시간을 만들고, 주제 안내판과 진행 PPT, 사회자 대본을 준비했습니다."
-                  ]
-                },
-                {
-                  "title": "사회·현장 운영",
-                  "items": [
-                    "직접 사회를 보며 팀별 발표와 프로그램 사이를 연결했습니다. 네트워킹 방법과 자리 이동을 안내하고 교류 시간을 진행했습니다.",
-                    "수료증·기념품 전달과 기념촬영도 순서에 맞춰 진행했습니다."
-                  ]
-                },
-                {
-                  "title": "현장 정리·결과보고",
-                  "items": [
-                    "행사 후 현장을 정리하고, 참석 현황과 프로그램 진행 내용, 지출 내역을 결과보고서로 정리했습니다."
-                  ]
-                }
+                "11월 11일 4기 수료식은 팀별 회고 발표와 칭찬 사연 소개를 중심으로 짰고, 다른 팀과도 이야기하고 싶다는 의견을 반영해 혼합조 네트워킹을 넣었습니다. 주제 안내판과 진행 PPT, 사회자 대본도 준비했습니다.",
+                "당일에는 사회를 보며 발표와 네트워킹, 수료증 전달, 기념촬영을 진행했고, 행사 후 참석 현황과 지출 내역을 결과보고서로 정리했습니다."
               ]
             }
           ],
           "outcomes": [
             "4기 19명, 5개 팀 모두 완주",
             "2026 원팀데이 기획·운영(1~4기 멘토·멘티 33명 참석)",
-            "4기 수료식 기획·사회·현장 운영·결과보고"
+            "4기 수료식 기획과 사회, 결과보고"
           ],
           "imageFiles": [
             "team-mate-logo-tight-v13.png",
-            "team-mate-ceremony-group-v1.webp",
-            "team-mate-ceremony-stage-v1.webp",
-            "team-mate-ceremony-host-collage-v1.webp",
-            "team-mate-ceremony-networking-collage-v1.webp",
-            "team-mate-ceremony-group-wave-v1.webp",
-            "team-mate-ceremony-group-candid-v1.webp",
-            "team-mate-ceremony-mc-close-v1.webp",
-            "team-mate-ceremony-mc-script-v1.webp",
-            "team-mate-ceremony-mc-stage-alt-v1.webp",
-            "team-mate-ceremony-network-portrait-v1.webp",
-            "team-mate-ceremony-network-table-v1.webp",
-            "team-mate-ceremony-network-table-group-v1.webp",
-            "team-mate-ceremony-certificate-v1.webp",
-            "team-mate-ceremony-team-photo-a-v1.webp",
-            "team-mate-ceremony-team-photo-b-v1.webp",
-            "team-mate-ceremony-team-photo-c-v1.webp",
-            "team-mate-ceremony-photo-pair-v1.webp",
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",
-            "team-mate-venue-collage-v13.webp"
+            "team-mate-venue-collage-v13.webp",
+            "team-mate-ceremony-host-v2.webp",
+            "team-mate-ceremony-atmosphere-v2.webp"
           ]
         },
         {
@@ -467,7 +307,7 @@ window.PORTFOLIO_CONTENT = {
           "outcomes": [
             "7~11월 5회 운영, 신청 78명 중 50명 참석",
             "회차별 전반 만족도 9.3~9.8점(10점 만점)",
-            "회차별 운영계획·홍보 문안·결과보고서"
+            "회차별 운영계획과 홍보 문안, 결과보고서"
           ]
         },
         {
@@ -500,7 +340,7 @@ window.PORTFOLIO_CONTENT = {
           ]
         }
       ],
-      "detailSummary": "KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 돕는 사업에서 Team-Mate 4기 운영과 원팀데이·수료식, 취업캠프를 맡았습니다. 수료식은 기획·사회·현장 운영부터 결과보고까지 맡았고, 교육운영 지원에서는 출결확인서와 참여확인서 발급을 자동화했습니다.",
+      "detailSummary": "KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 돕는 사업에서 Team-Mate 4기와 취업캠프를 맡았습니다. 원팀데이와 4기 수료식을 준비해 수료식 사회까지 봤고, 교육운영 지원에서는 출결확인서와 참여확인서 발급을 자동화했습니다.",
       "keyFigures": [
         "5개 팀 모두 완주",
         "33명",
@@ -546,7 +386,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 775,
           "alt": "가나 프로젝트 봉사단 성과보고회 단체사진과 수료증 전달 장면을 나란히 묶은 사진",
-          "caption": "가나 프로젝트 봉사단 성과보고회와 수료증 전달",
+          "caption": "성과보고회와 수료증 전달",
           "kind": "photo"
         },
         {
@@ -554,7 +394,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 2252,
           "alt": "ICT실 소개, 현지 교사 ICT 실습교육, 학교 관계자 협력 장면을 묶은 사진",
-          "caption": "ICT실 소개·현지 교사 실습교육·학교 협력",
+          "caption": "ICT실 실습교육과 학교 협력",
           "kind": "photo"
         },
         {
@@ -562,11 +402,11 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1503,
           "alt": "ICT실 기증식, 교육 관계자 교류, 현지 학교의 마지막 인사를 묶은 사진",
-          "caption": "ICT실 기증식과 현지 학교·교육 관계자 교류",
+          "caption": "ICT실 기증식과 현지 교류",
           "kind": "photo"
         }
       ],
-      "hrdLabel": "다년간 사업 기초선 조사",
+      "hrdLabel": "교사 ICT 기초선 조사",
       "hrdFocus": "교사들이 평소 쓰는 스마트폰에 맞춰 설문 방식을 바꾸며, 응답하는 사람이 편해야 조사도 된다는 걸 실감했습니다.",
       "hrd": true,
       "detailSections": [
@@ -616,8 +456,7 @@ window.PORTFOLIO_CONTENT = {
             {
               "title": "실습교재",
               "items": [
-                "교사들이 업무에 바로 쓸 수 있도록 출석부, 성적표, 공문을 따라 만드는 엑셀·워드 실습교재를 팀원과 함께 썼습니다.",
-                "팀은 실습교재 3편과 한 학기 교육과정을 마련했고, 교사 21명과 파일럿 수업을 진행했습니다."
+                "교사들이 업무에 바로 쓸 수 있도록 출석부, 성적표, 공문을 따라 만드는 엑셀·워드 실습교재를 썼습니다."
               ]
             },
             {
@@ -631,7 +470,7 @@ window.PORTFOLIO_CONTENT = {
           "learning": "교사들이 평소 쓰는 스마트폰에 맞춰 설문 방식을 바꾸며, 응답하는 사람이 편해야 조사도 된다는 걸 실감했습니다.",
           "outcomes": [
             "엑셀·워드 실습교재(팀원과 공동 작성)",
-            "일일·주간·활동 계획·결과보고서",
+            "일일·주간 보고서와 활동 계획서, 결과보고서",
             "주간 팀 회의 진행"
           ],
           "teamOutcomes": [
@@ -646,7 +485,7 @@ window.PORTFOLIO_CONTENT = {
           ]
         }
       ],
-      "detailSummary": "가나 코포리두아시 교사들의 ICT 환경을 조사하고, 엑셀과 워드 실습교재를 팀원과 함께 만들었습니다. 팀 성과관리 담당으로 보고서 작성과 주간 회의를 맡았습니다.",
+      "detailSummary": "다년간 사업의 첫 기수로 가나에 3개월간 파견돼, 교사 ICT 기초선 조사와 실습교재 제작에 참여했습니다.",
       "keyFigures": [
         "215명",
         "68.5%",
@@ -685,7 +524,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1107,
           "height": 1600,
           "alt": "보훈 공공데이터 공모전 우수상 보드를 들고 촬영한 팀 단체사진",
-          "caption": "2025 보훈 공공데이터 활용 및 데이터 분석 공모전 · 국가보훈부 장관상 우수상 기념",
+          "caption": "국가보훈부 장관상 우수상 수상",
           "kind": "photo"
         },
         {
@@ -693,7 +532,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 900,
           "alt": "GIS를 통한 보훈의료 사각지대 분석 및 개선방안 제안 제목면",
-          "caption": "GIS를 통한 보훈의료 사각지대 분석 및 개선방안 제안 · 팀 발표자료 표지",
+          "caption": "팀 발표자료 표지",
           "kind": "slide"
         },
         {
@@ -701,7 +540,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1715,
           "alt": "GIS를 통한 보훈의료 사각지대 분석 및 개선방안 제안 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "팀 발표자료 본문",
           "kind": "slide"
         },
         {
@@ -709,7 +548,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1200,
           "height": 1600,
           "alt": "보훈 의료 확충 제안 화면과 발표자가 함께 보이는 공모전 현장",
-          "caption": "2025 보훈 공공데이터 활용 및 데이터 분석 공모전 · 팀 프로젝트 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "팀 프로젝트 발표",
           "kind": "photo"
         },
         {
@@ -717,7 +556,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1150,
           "height": 767,
           "alt": "경남빅데이터센터 포럼 무대에서 수상자들이 함께 촬영한 사진",
-          "caption": "2024 경상남도 빅데이터 분석 공모전 · 시상 기념 단체사진",
+          "caption": "시상식 단체사진",
           "kind": "photo"
         },
         {
@@ -725,7 +564,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 900,
           "alt": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 제목면",
-          "caption": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 · 팀 발표자료 표지",
+          "caption": "팀 발표자료 표지",
           "kind": "slide"
         },
         {
@@ -733,7 +572,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1715,
           "alt": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "팀 발표자료 본문",
           "kind": "slide"
         },
         {
@@ -741,7 +580,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1050,
           "height": 1400,
           "alt": "경상남도 의료 접근성 개선 제안 화면 앞에서 발표가 진행되는 장면",
-          "caption": "2024 경상남도 빅데이터 분석 공모전 · 팀 프로젝트 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "팀 프로젝트 발표",
           "kind": "photo"
         },
         {
@@ -749,7 +588,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 905,
           "height": 679,
           "alt": "영천시 공공데이터 활용 경진대회 최우수 수상 보드를 들고 촬영한 팀 단체사진",
-          "caption": "2024년 제3회 영천시 공공데이터 활용 경진대회 · 팀 비비빅 최우수상 기념",
+          "caption": "최우수상 수상",
           "kind": "photo"
         },
         {
@@ -757,7 +596,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 900,
           "alt": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 제목면",
-          "caption": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 · 팀 발표자료 표지",
+          "caption": "팀 발표자료 표지",
           "kind": "slide"
         },
         {
@@ -765,7 +604,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1715,
           "alt": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "팀 발표자료 본문",
           "kind": "slide"
         },
         {
@@ -773,7 +612,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1200,
           "alt": "영천시 시상식 행사장에서 ASF 위험도 지도와 방역지 제안을 발표하는 장면",
-          "caption": "2024년 제3회 영천시 공공데이터 활용 경진대회 · 팀 프로젝트 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "팀 프로젝트 발표",
           "kind": "photo"
         }
       ],
@@ -822,7 +661,7 @@ window.PORTFOLIO_CONTENT = {
         {
           "id": "veterans",
           "label": "2025 보훈 공공데이터 활용 및 데이터 분석 공모전",
-          "summary": "보훈병원과 위탁병원은 수도권과 대도시에 몰려 있어, 고령 보훈 대상자 중에는 병원까지 가기 어려운 사람이 많습니다. 이런 지역을 찾는 것이 과제였고, 분석 방법과 기준은 논문으로 검증된 선행 연구를 바탕으로 삼았습니다.",
+          "summary": "보훈병원과 위탁병원은 수도권과 대도시에 몰려 있어, 고령 보훈 대상자 중에는 병원까지 가기 어려운 사람이 많습니다. 이런 지역을 찾는 것이 과제였습니다.",
           "role": "프로젝트를 기획하고, AI의 도움을 받아 Python으로 데이터를 전처리했습니다. 정리한 데이터는 ArcGIS와 QGIS로 지도에 시각화했습니다.",
           "sections": [
             {
@@ -834,14 +673,13 @@ window.PORTFOLIO_CONTENT = {
             {
               "title": "전처리와 시각화",
               "items": [
-                "보훈병원·위탁병원 현황, 시군구별 보훈대상자, 토지피복도, 도로망 자료를 AI의 도움을 받아 Python으로 정리했습니다. 병원 주소는 좌표로 바꾸고, 전국 토지피복도는 하나로 합쳤습니다.",
-                "정리한 데이터는 ArcGIS·QGIS로 지도에 옮겨 시각화했습니다."
+                "보훈병원·위탁병원 현황, 시군구별 보훈대상자, 토지피복도, 도로망 자료를 정리하면서 병원 주소는 좌표로 바꾸고, 전국 토지피복도는 하나로 합쳤습니다."
               ]
             },
             {
               "title": "결과",
               "items": [
-                "그 결과 의료 접근성이 취약한 시군 47곳을 찾았고, 보훈병원 신설·위탁병원 지정·순회 진료를 먼저 검토할 지역을 제안했습니다."
+                "의료 접근성이 취약한 시군 47곳을 찾았고, 보훈병원 신설·위탁병원 지정·순회 진료를 먼저 검토할 지역을 제안했습니다."
               ]
             }
           ],
@@ -864,7 +702,7 @@ window.PORTFOLIO_CONTENT = {
         {
           "id": "gyeongnam",
           "label": "2024 경상남도 빅데이터 분석 공모전",
-          "summary": "경상남도에서 응급상황에 병원까지 가기 어려운 지역을 찾고, 평소 대중교통으로 병원에 가는 접근성까지 함께 분석한 과제였습니다. 분석 방법과 기준은 논문으로 검증된 선행 연구를 바탕으로 삼았습니다.",
+          "summary": "경상남도에서 응급상황에 병원까지 가기 어려운 지역을 찾고, 평소 대중교통으로 병원에 가는 접근성까지 함께 분석한 과제였습니다.",
           "role": "발표자료를 만들고 디자인했으며, 슬라이드별 발표 대본을 썼습니다.",
           "sections": [
             {
@@ -899,7 +737,7 @@ window.PORTFOLIO_CONTENT = {
         {
           "id": "yeongcheon",
           "label": "2024년 제3회 영천시 공공데이터 활용 경진대회",
-          "summary": "2024년 영천시에서 아프리카돼지열병(ASF)이 처음 검출되자, 위험 농가와 드론 방역 우선지역을 지도로 찾는 과제였습니다. 분석 방법과 기준은 논문으로 검증된 선행 연구를 바탕으로 삼았습니다.",
+          "summary": "2024년 영천시에서 아프리카돼지열병(ASF)이 처음 검출되자, 위험 농가와 드론 방역 우선지역을 지도로 찾는 과제였습니다.",
           "role": "발표자료를 만들고 디자인했으며, 문제 배경부터 분석 결과까지 이어지는 설명 흐름을 짰습니다.",
           "sections": [
             {
@@ -953,7 +791,7 @@ window.PORTFOLIO_CONTENT = {
       "title": "서울권 지리학과, 지리교육과 축구대회(지오컵) 운영위원회 부위원장",
       "subtitle": "제3회 · 운영위원회 부위원장",
       "period": "2024.05–2024.08",
-      "organization": "제3회 대회 운영위원회",
+      "organization": "제3회 지오컵운영위원회",
       "summary": "제3회 대회 운영위원회 부위원장으로, 직접 쓴 후원 제안서로 음료 3종 720병을 지원받았습니다. 참가팀 모집과 경기 일정도 조율했습니다.",
       "background": "서울 지역 대학 지리학과·지리교육과 학생들이 매년 모이는 친선 축구대회입니다. 제3회 대회는 2024년 8월 서울대·건국대·고려대 운동장에서 6개 학교 8개 구단이 참가해 열렸고, 저는 운영위원회 부위원장으로 참여했습니다.",
       "role": "후원사 조사와 제안서 작성·제안, 참가팀 모집, 경기 일정 조율, 공지와 준비물 확인.",
@@ -977,7 +815,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1440,
           "height": 811,
           "alt": "주간 축구장에서 제3회 GEO CUP 현수막과 함께 모인 여러 팀의 참가자들",
-          "caption": "서울권 지리학과, 지리교육과 축구대회(지오컵) 주간 경기장 단체사진",
+          "caption": "주간 경기장 단체사진",
           "kind": "photo"
         },
         {
@@ -985,7 +823,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1440,
           "height": 811,
           "alt": "야간 축구장에서 제3회 GEO CUP 현수막을 들고 모인 참가자들",
-          "caption": "서울권 지리학과, 지리교육과 축구대회(지오컵) 현장 기념사진",
+          "caption": "현수막 앞 기념사진",
           "kind": "photo"
         },
         {
@@ -993,7 +831,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 2829,
           "alt": "제3회 지오컵 후원 제안서 제목면",
-          "caption": "제3회 지오컵 후원 제안서 제목면 · 본문 비공개 처리",
+          "caption": "후원 제안서 표지",
           "kind": "slide"
         },
         {
@@ -1001,7 +839,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1416,
           "alt": "제3회 지오컵 후원 제안서 본문 구성 미리보기",
-          "caption": "후원 제안서 1–2쪽 구성 · 본문 비공개 처리",
+          "caption": "후원 제안서 본문",
           "kind": "slide"
         },
         {
@@ -1009,7 +847,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1440,
           "height": 1081,
           "alt": "제3회 지오컵 사회공헌 기부 보드와 간식 상자 앞에서 기관 관계자들과 함께 찍은 전달식 사진",
-          "caption": "서울권 지리학과, 지리교육과 축구대회(지오컵) 사회공헌 기부 · 상록보육원 간식 전달",
+          "caption": "상록보육원 간식 기부",
           "kind": "photo"
         },
         {
@@ -1017,7 +855,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1440,
           "height": 811,
           "alt": "야간 축구장에서 우승·준우승·3위 보드와 트로피를 들고 모인 대회 참가자들",
-          "caption": "서울권 지리학과, 지리교육과 축구대회(지오컵) 시상 현장",
+          "caption": "시상 현장",
           "kind": "photo"
         },
         {
@@ -1033,7 +871,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 665,
           "alt": "공을 차는 선수들과 주변 선수들의 서로 다른 지오컵 경기 장면 두 장",
-          "caption": "서울권 지리학과, 지리교육과 축구대회(지오컵) 경기 장면",
+          "caption": "경기 장면",
           "kind": "photo"
         }
       ],
@@ -1076,13 +914,13 @@ window.PORTFOLIO_CONTENT = {
           "id": "geocup",
           "label": "후원 기획과 대회 운영",
           "summary": "서울 지역 대학의 지리학과·지리교육과 학생들이 매년 모이는 친선 축구대회입니다. 제3회 대회는 2024년 8월 서울대·건국대·고려대 운동장에서 6개 학교 8개 구단이 참가해 열렸습니다.",
-          "role": "운영위원회 부위원장으로 참가팀 모집, 일정 조율, 공지 작성, 물품 확인을 맡았고, 후원 제안서를 작성해 기업에 제안했습니다.",
+          "role": "운영위원회 부위원장으로 참가팀 모집, 일정 조율, 공지 작성, 물품 확인을 맡았고, 후원 제안서를 써서 기업에 보냈습니다.",
           "sections": [
             {
               "title": "후원 제안",
               "items": [
                 "대회 날 가장 필요한 것은 음료였습니다. 그래서 신제품 홍보나 스포츠 후원 이력이 있는 기업을 골라 제안했습니다.",
-                "제안서에는 약 200명이 참여하고 6개 학교 약 2,500명에게 알릴 수 있다는 학생 수요와 홍보 효과, 로고 노출·현장 부스 같은 후원 방식을 담았습니다. 그 결과 음료 3종 720병을 확보했습니다."
+                "제안서에는 약 200명이 참여하고 6개 학교 약 2,500명에게 알릴 수 있다는 학생 수요와 홍보 효과, 로고 노출·현장 부스 같은 후원 방식을 담았습니다."
               ]
             },
             {
@@ -1141,7 +979,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 600,
           "height": 316,
           "alt": "신한은행 대학생 홍보대사 44기 최종 행사 무대의 전체 단체사진",
-          "caption": "신한은행 대학생 홍보대사 44기 · FINAL RUNWAY 단체사진",
+          "caption": "44기 해단식 단체사진",
           "kind": "photo"
         },
         {
@@ -1149,7 +987,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1124,
           "alt": "20+ 뛰어요 인사이트 보고서: 뛰어보니 보이더라 제목면",
-          "caption": "20+ 뛰어요 인사이트 보고서: 뛰어보니 보이더라 · 팀 발표자료 표지",
+          "caption": "인사이트 보고서 표지",
           "kind": "slide"
         },
         {
@@ -1157,7 +995,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 602,
           "alt": "20+ 뛰어요 인사이트 보고서: 뛰어보니 보이더라 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "인사이트 보고서 본문",
           "kind": "slide"
         },
         {
@@ -1165,7 +1003,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1200,
           "height": 1600,
           "alt": "신한은행 대학생 홍보대사 우수상 수상 보드를 들고 촬영한 기념사진",
-          "caption": "신한은행 대학생 홍보대사 44기 · 최종 우수팀 선정 기념",
+          "caption": "44기 최종 우수팀 선정",
           "kind": "photo"
         },
         {
@@ -1173,7 +1011,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1200,
           "alt": "신한은행 대학생 홍보대사 인사이트 보고서 발표 화면 앞에서 촬영한 단체사진",
-          "caption": "신한은행 대학생 홍보대사 44기 · 20+ 뛰어요 인사이트 보고서 발표 기념",
+          "caption": "인사이트 보고서 발표 기념",
           "kind": "photo"
         },
         {
@@ -1181,7 +1019,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 810,
           "height": 1440,
           "alt": "20+ 뛰어요 인사이트 보고서 화면 앞에서 발표가 진행되는 장면",
-          "caption": "신한은행 대학생 홍보대사 44기 · 20+ 뛰어요 인사이트 보고서 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "인사이트 보고서 발표",
           "kind": "photo"
         }
       ],
@@ -1254,14 +1092,14 @@ window.PORTFOLIO_CONTENT = {
             {
               "title": "데이터로 본 진단",
               "items": [
-                "주장은 직접 사용한 기록과 경쟁 앱 비교로 뒷받침했습니다. 한 달을 뛰어도 300포인트인 보상 구조, 그리고 보고서를 쓸 당시 비교한 다섯 앱 중 메인·잠금 화면 노출이 없는 앱은 신한 20+ 뛰어요뿐이라는 점을 짚었습니다.",
+                "진단은 직접 써 본 기록과 경쟁 앱 비교를 근거로 했습니다. 한 달을 뛰어도 300포인트인 보상 구조, 그리고 보고서를 쓸 당시 비교한 다섯 앱 중 메인·잠금 화면 노출이 없는 앱은 신한 20+ 뛰어요뿐이라는 점을 짚었습니다.",
                 "경쟁 서비스를 지각도에 놓고 신한 20+ 뛰어요가 어디에 있는지 보여 줬습니다."
               ]
             },
             {
               "title": "제안",
               "items": [
-                "STP로 집중 타깃을 군 장병으로 좁혔고, 4P에 맞춰 보상 강화와 노출 확대, 소대 단위 챌린지 ‘쏠 전역시키기’를 제안했습니다. 이 제안 사항은 이후 실제 서비스에 반영됐습니다."
+                "STP로 집중 타깃을 군 장병으로 좁혔고, 4P에 맞춰 보상 강화와 노출 확대, 소대 단위 챌린지 ‘쏠 전역시키기’를 제안했습니다."
               ]
             }
           ],
@@ -1366,7 +1204,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 2041,
           "alt": "FC 엠제트의 지오컵 경기 장면과 유니폼 단체사진, 주간 축구 활동을 묶은 사진",
-          "caption": "FC 엠제트의 경기와 모임 활동 · 사진 속 당시 명칭 FC MZ",
+          "caption": "경기와 모임 활동(당시 명칭 FC MZ)",
           "kind": "photo"
         },
         {
@@ -1374,7 +1212,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1500,
           "alt": "주간과 야간 축구장에서 함께 찍은 FC 엠제트 구성원들의 활동사진 네 장",
-          "caption": "주간·야간으로 이어진 FC 엠제트 모임 활동",
+          "caption": "주간과 야간 모임 활동",
           "kind": "photo"
         },
         {
@@ -1382,7 +1220,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1081,
           "height": 1081,
           "alt": "FC 엠제트 클럽 로고",
-          "caption": "FC 엠제트 활동자료에 보관된 클럽 로고",
+          "caption": "FC 엠제트 로고",
           "kind": "slide"
         }
       ],
@@ -1422,7 +1260,7 @@ window.PORTFOLIO_CONTENT = {
           "id": "fcmz",
           "label": "소모임 창단과 운영",
           "summary": "2023년 3월 4명으로 시작한 건국대학교 지리학과 축구 소모임입니다. 지금은 문과대학 축구동아리 FC Libertz로 운영되고 있습니다.",
-          "role": "창단자이자 소모임장으로서 처음에는 회원 모집과 일정 조율, 경기 섭외를 직접 맡았습니다. 이후 운영진을 구성해 역할을 나누고, 회비와 활동 계획을 문서로 남겼습니다.",
+          "role": "회원 모집과 일정 조율, 경기 섭외를 맡다가 운영진을 꾸려 역할을 나눴고, 회비와 활동 계획을 문서로 남겼습니다.",
           "sections": [
             {
               "title": "창단",
@@ -1502,7 +1340,7 @@ window.PORTFOLIO_CONTENT = {
           ]
         },
         {
-          "title": "Team-Mate 4기 수료식 · 2026.11",
+          "title": "4기 수료식",
           "items": [
             "멘토링 활동을 돌아보고 다른 팀과도 교류할 수 있도록 팀별 회고 발표와 칭찬 사연 소개, 혼합조 네트워킹을 구성했습니다.",
             "다른 팀과도 이야기하고 싶다는 요청을 반영해 일상 속 주제로 대화하는 시간을 만들고, 주제 안내판과 진행 PPT, 사회자 대본을 준비했습니다.",
@@ -1535,151 +1373,15 @@ window.PORTFOLIO_CONTENT = {
           "width": 1132,
           "height": 689,
           "alt": "하늘색 그라데이션 team과 검정 계열 mate 글자가 있는 Team-Mate 원색 로고",
-          "caption": "Team-Mate 원색 로고",
+          "caption": "Team-Mate 로고",
           "kind": "slide"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-v1.webp",
-          "width": 1920,
-          "height": 1100,
-          "alt": "Team-Mate 4기 수료식에서 수료증을 들고 함께 모인 멘토·멘티와 운영진",
-          "caption": "4기 수료식 · 수료증을 들고 함께 남긴 단체사진",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-stage-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "Team-Mate 4기 수료식 사회를 맡아 프로그램을 진행하는 모습",
-          "caption": "4기 수료식 · 사회 및 프로그램 진행",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-host-collage-v1.webp",
-          "width": 1920,
-          "height": 1080,
-          "alt": "마이크와 사회자 대본을 들고 수료식 순서를 안내하는 두 장면",
-          "caption": "4기 수료식 · 대본을 바탕으로 순서·발표 연결",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-networking-collage-v1.webp",
-          "width": 1920,
-          "height": 1080,
-          "alt": "갈색 셔츠를 입고 교류하는 모습과 혼합조 네트워킹 현장. 다른 참가자 얼굴은 모자이크 처리",
-          "caption": "4기 수료식 · 혼합조 네트워킹과 멘토·멘티 교류",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-wave-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
-          "caption": "4기 수료식 · 멘토·멘티와 함께한 단체 기념촬영",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-group-candid-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 단체촬영을 준비하는 현장",
-          "caption": "4기 수료식 · 단체촬영을 준비하는 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-close-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
-          "caption": "4기 수료식 · 마이크를 들고 사회를 진행하는 모습",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-script-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
-          "caption": "4기 수료식 · 사회자 대본을 확인하며 순서 안내",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-mc-stage-alt-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
-          "caption": "4기 수료식 · Team-Mate 화면과 사회 진행 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-portrait-v1.webp",
-          "width": 1280,
-          "height": 1920,
-          "alt": "4기 수료식 · 멘토·멘티와 교류하는 모습",
-          "caption": "4기 수료식 · 멘토·멘티와 교류하는 모습",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-table-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 혼합조 네트워킹 현장",
-          "caption": "4기 수료식 · 혼합조 네트워킹 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-network-table-group-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
-          "caption": "4기 수료식 · 테이블에서 함께 남긴 교류 기념사진",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-certificate-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 수료증 전달",
-          "caption": "4기 수료식 · 수료증 전달",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-a-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 1",
-          "caption": "4기 수료식 · 팀별 기념촬영 1",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-b-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 2",
-          "caption": "4기 수료식 · 팀별 기념촬영 2",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-team-photo-c-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 팀별 기념촬영 3",
-          "caption": "4기 수료식 · 팀별 기념촬영 3",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/team-mate-ceremony-photo-pair-v1.webp",
-          "width": 1920,
-          "height": 1280,
-          "alt": "4기 수료식 · 행사 후 함께 남긴 기념사진",
-          "caption": "4기 수료식 · 행사 후 함께 남긴 기념사진",
-          "kind": "photo"
         },
         {
           "src": "./assets/media/team-mate-oneteam-group-v10.webp",
           "width": 1600,
           "height": 1067,
           "alt": "Team-Mate 원팀데이 현수막 아래 참가자들이 함께 모인 전체 단체사진",
-          "caption": "2026 Team-Mate 원팀데이 전체 단체사진",
+          "caption": "2026 원팀데이 단체사진",
           "kind": "photo"
         },
         {
@@ -1687,7 +1389,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1603,
           "alt": "참가자 테이블에 필기구를 배부하는 운영지원 장면 / 참가자 테이블에서 자료를 안내하는 운영지원 장면 / 운영진이 자료를 보며 행사 진행을 협의하는 장면",
-          "caption": "참가자 테이블에 필기구를 배부하는 운영지원 장면 / 참가자 테이블에서 자료를 안내하는 운영지원 장면 / 운영진이 자료를 보며 행사 진행을 협의하는 장면",
+          "caption": "원팀데이 현장 운영지원",
           "kind": "photo"
         },
         {
@@ -1695,7 +1397,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1603,
           "alt": "행사 시작 전 자료와 마이크를 점검하는 장면 / 연단 옆 노트북을 확인하며 통화하는 운영지원 장면 / 참가자 테이블에서 안내하는 운영지원 장면",
-          "caption": "행사 시작 전 자료와 마이크를 점검하는 장면 / 연단 옆 노트북을 확인하며 통화하는 운영지원 장면 / 참가자 테이블에서 안내하는 운영지원 장면",
+          "caption": "원팀데이 행사 준비",
           "kind": "photo"
         },
         {
@@ -1703,7 +1405,23 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 666,
           "alt": "원탁에 모인 참가자들과 스크린, 연단이 함께 보이는 원팀데이 행사장 전경 / 참가자 입장 전 원형 테이블과 스크린, 마이크를 설치한 원팀데이 행사장",
-          "caption": "2026 Team-Mate 원팀데이 행사 전경 / 원팀데이 행사장 구성과 준비",
+          "caption": "원팀데이 행사장 전경",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-host-v2.webp",
+          "width": 1600,
+          "height": 1603,
+          "alt": "Team-Mate 4기 수료식 무대에서 사회를 보는 모습 / 마이크를 들고 순서를 안내하는 모습 / 사회자 대본을 보며 진행하는 모습",
+          "caption": "4기 수료식 사회",
+          "kind": "photo"
+        },
+        {
+          "src": "./assets/media/team-mate-ceremony-atmosphere-v2.webp",
+          "width": 1600,
+          "height": 1603,
+          "alt": "수료증을 받은 멘토·멘티로 가득 찬 4기 수료식 행사장 / 다른 팀 멘토·멘티가 섞여 앉은 혼합조 네트워킹 테이블 / 타 팀 네트워킹 화면 앞에서 남긴 기념사진. 다른 참가자 얼굴은 모자이크 처리",
+          "caption": "4기 수료식 행사 현장",
           "kind": "photo"
         }
       ],
@@ -1741,61 +1459,21 @@ window.PORTFOLIO_CONTENT = {
               ]
             },
             {
-              "title": "Team-Mate 4기 수료식 · 2026.11",
+              "title": "4기 수료식",
               "items": [
-                "멘토링 활동을 돌아보고 다른 팀과도 교류할 수 있도록 팀별 회고 발표와 칭찬 사연 소개, 혼합조 네트워킹을 구성했습니다.",
-                "다른 팀과도 이야기하고 싶다는 요청을 반영해 일상 속 주제로 대화하는 시간을 만들고, 주제 안내판과 진행 PPT, 사회자 대본을 준비했습니다.",
-                "직접 사회를 보며 팀별 발표와 프로그램 사이를 연결했습니다. 네트워킹 방법과 자리 이동을 안내하고 교류 시간을 진행했습니다.",
-                "수료증·기념품 전달과 기념촬영도 순서에 맞춰 진행했습니다.",
-                "행사 후 현장을 정리하고, 참석 현황과 프로그램 진행 내용, 지출 내역을 결과보고서로 정리했습니다."
-              ],
-              "subsections": [
-                {
-                  "title": "프로그램 기획·준비",
-                  "items": [
-                    "멘토링 활동을 돌아보고 다른 팀과도 교류할 수 있도록 팀별 회고 발표와 칭찬 사연 소개, 혼합조 네트워킹을 구성했습니다.",
-                    "다른 팀과도 이야기하고 싶다는 요청을 반영해 일상 속 주제로 대화하는 시간을 만들고, 주제 안내판과 진행 PPT, 사회자 대본을 준비했습니다."
-                  ]
-                },
-                {
-                  "title": "사회·현장 운영",
-                  "items": [
-                    "직접 사회를 보며 팀별 발표와 프로그램 사이를 연결했습니다. 네트워킹 방법과 자리 이동을 안내하고 교류 시간을 진행했습니다.",
-                    "수료증·기념품 전달과 기념촬영도 순서에 맞춰 진행했습니다."
-                  ]
-                },
-                {
-                  "title": "현장 정리·결과보고",
-                  "items": [
-                    "행사 후 현장을 정리하고, 참석 현황과 프로그램 진행 내용, 지출 내역을 결과보고서로 정리했습니다."
-                  ]
-                }
+                "11월 11일 4기 수료식은 팀별 회고 발표와 칭찬 사연 소개를 중심으로 짰고, 다른 팀과도 이야기하고 싶다는 의견을 반영해 혼합조 네트워킹을 넣었습니다. 주제 안내판과 진행 PPT, 사회자 대본도 준비했습니다.",
+                "당일에는 사회를 보며 발표와 네트워킹, 수료증 전달, 기념촬영을 진행했고, 행사 후 참석 현황과 지출 내역을 결과보고서로 정리했습니다."
               ]
             }
           ],
           "imageFiles": [
             "team-mate-logo-tight-v13.png",
-            "team-mate-ceremony-group-v1.webp",
-            "team-mate-ceremony-stage-v1.webp",
-            "team-mate-ceremony-host-collage-v1.webp",
-            "team-mate-ceremony-networking-collage-v1.webp",
-            "team-mate-ceremony-group-wave-v1.webp",
-            "team-mate-ceremony-group-candid-v1.webp",
-            "team-mate-ceremony-mc-close-v1.webp",
-            "team-mate-ceremony-mc-script-v1.webp",
-            "team-mate-ceremony-mc-stage-alt-v1.webp",
-            "team-mate-ceremony-network-portrait-v1.webp",
-            "team-mate-ceremony-network-table-v1.webp",
-            "team-mate-ceremony-network-table-group-v1.webp",
-            "team-mate-ceremony-certificate-v1.webp",
-            "team-mate-ceremony-team-photo-a-v1.webp",
-            "team-mate-ceremony-team-photo-b-v1.webp",
-            "team-mate-ceremony-team-photo-c-v1.webp",
-            "team-mate-ceremony-photo-pair-v1.webp",
             "team-mate-oneteam-group-v10.webp",
             "team-mate-support-primary-collage-v13.webp",
             "team-mate-support-preparation-collage-v13.webp",
-            "team-mate-venue-collage-v13.webp"
+            "team-mate-venue-collage-v13.webp",
+            "team-mate-ceremony-host-v2.webp",
+            "team-mate-ceremony-atmosphere-v2.webp"
           ],
           "note": "회고·후기 원고의 게시 여부와 행사 운영 완료는 구분합니다. 준비 단계의 좌석표·운영안 인원은 실제 참석 인원과 다를 수 있습니다.",
           "outcomes": [
@@ -1924,7 +1602,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1150,
           "height": 767,
           "alt": "경남빅데이터센터 포럼 무대에서 수상자들이 함께 촬영한 사진",
-          "caption": "2024 경상남도 빅데이터 분석 공모전 · 시상 기념 단체사진",
+          "caption": "시상식 단체사진",
           "kind": "photo"
         },
         {
@@ -1932,7 +1610,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 900,
           "alt": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 제목면",
-          "caption": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 · 팀 발표자료 표지",
+          "caption": "팀 발표자료 표지",
           "kind": "slide"
         },
         {
@@ -1940,7 +1618,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1715,
           "alt": "빅데이터 시각화를 통한 경상남도 의료접근성 개선 제안 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "팀 발표자료 본문",
           "kind": "slide"
         },
         {
@@ -1948,7 +1626,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1050,
           "height": 1400,
           "alt": "경상남도 의료 접근성 개선 제안 화면 앞에서 발표가 진행되는 장면",
-          "caption": "2024 경상남도 빅데이터 분석 공모전 · 팀 프로젝트 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "팀 프로젝트 발표",
           "kind": "photo"
         }
       ],
@@ -1985,7 +1663,7 @@ window.PORTFOLIO_CONTENT = {
         {
           "id": "gyeongnam",
           "label": "의료 접근성 분석 발표자료",
-          "summary": "경상남도에서 응급상황에 병원까지 가기 어려운 지역을 찾고, 평소 대중교통으로 병원에 가는 접근성까지 함께 분석한 과제였습니다. 분석 방법과 기준은 논문으로 검증된 선행 연구를 바탕으로 삼았습니다.",
+          "summary": "경상남도에서 응급상황에 병원까지 가기 어려운 지역을 찾고, 평소 대중교통으로 병원에 가는 접근성까지 함께 분석한 과제였습니다.",
           "role": "발표자료를 만들고 디자인했으며, 슬라이드별 발표 대본을 썼습니다.",
           "sections": [
             {
@@ -2044,7 +1722,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 905,
           "height": 679,
           "alt": "영천시 공공데이터 활용 경진대회 최우수 수상 보드를 들고 촬영한 팀 단체사진",
-          "caption": "2024년 제3회 영천시 공공데이터 활용 경진대회 · 팀 비비빅 최우수상 기념",
+          "caption": "최우수상 수상",
           "kind": "photo"
         },
         {
@@ -2052,7 +1730,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 900,
           "alt": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 제목면",
-          "caption": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 · 팀 발표자료 표지",
+          "caption": "팀 발표자료 표지",
           "kind": "slide"
         },
         {
@@ -2060,7 +1738,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 2000,
           "height": 1715,
           "alt": "영천시 취약 양돈농가 보호 및 드론 방역 최적 입지 선정 연구 본문 구성 미리보기",
-          "caption": "팀 발표자료 일부 구성 · 본문 비공개 처리",
+          "caption": "팀 발표자료 본문",
           "kind": "slide"
         },
         {
@@ -2068,7 +1746,7 @@ window.PORTFOLIO_CONTENT = {
           "width": 1600,
           "height": 1200,
           "alt": "영천시 시상식 행사장에서 ASF 위험도 지도와 방역지 제안을 발표하는 장면",
-          "caption": "2024년 제3회 영천시 공공데이터 활용 경진대회 · 팀 프로젝트 발표 장면 · 화면 일부 비공개 처리",
+          "caption": "팀 프로젝트 발표",
           "kind": "photo"
         }
       ],
@@ -2105,7 +1783,7 @@ window.PORTFOLIO_CONTENT = {
         {
           "id": "yeongcheon",
           "label": "ASF 위험도 분석 발표자료",
-          "summary": "2024년 영천시에서 아프리카돼지열병(ASF)이 처음 검출되자, 위험 농가와 드론 방역 우선지역을 지도로 찾는 과제였습니다. 분석 방법과 기준은 논문으로 검증된 선행 연구를 바탕으로 삼았습니다.",
+          "summary": "2024년 영천시에서 아프리카돼지열병(ASF)이 처음 검출되자, 위험 농가와 드론 방역 우선지역을 지도로 찾는 과제였습니다.",
           "role": "발표자료를 만들고 디자인했으며, 문제 배경부터 분석 결과까지 이어지는 설명 흐름을 짰습니다.",
           "sections": [
             {
@@ -2738,7 +2416,7 @@ window.PORTFOLIO_CONTENT = {
     {
       "period": "2026.07–2026.12",
       "title": "대한상공회의소 인력개발사업단",
-      "role": "현장실습 인턴으로 Team-Mate 4기 운영, 원팀데이 기획, 수료식 기획·사회, 취업캠프와 출결확인서 발급 자동화",
+      "role": "현장실습 인턴으로 Team-Mate 4기 운영과 수료식 사회, 원팀데이와 취업캠프 기획, 출결확인서 발급 자동화",
       "experienceId": "kcci",
       "periodNote": "현장실습"
     },
@@ -2751,7 +2429,7 @@ window.PORTFOLIO_CONTENT = {
     {
       "period": "2026.02–2026.07",
       "title": "신한은행 대학생 홍보대사 44기",
-      "role": "팀 S:oar에서 신한 20+ 뛰어요 인사이트 보고서 공모전 기획(최우수팀, 3C·STP·4P 프레임워크), 44기 최종 우수팀 선정",
+      "role": "팀 S:oar에서 3C·STP·4P 프레임워크로 신한 20+ 뛰어요 인사이트 보고서 기획(공모전 최우수팀), 44기 최종 우수팀 선정",
       "experienceId": "shinhan"
     },
     {
@@ -2776,7 +2454,7 @@ window.PORTFOLIO_CONTENT = {
     {
       "period": "2024.05",
       "title": "2024년 광진구 빅데이터 분석 공모전 출품",
-      "role": "스마트안심쉼터 입지 분석의 자료 조사와 발표자료 제작",
+      "role": "스마트안심쉼터 입지 분석 자료 조사와 발표자료 제작",
       "experienceId": "gwangjin"
     },
     {

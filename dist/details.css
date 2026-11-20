@@ -43,7 +43,7 @@
 .case-gallery-track.is-gliding { scroll-snap-type: none; }
 .case-slide { display: flex; flex: 0 0 clamp(42%,calc(var(--gallery-height)*var(--media-ratio)),calc(100% - 32px)); min-width: 0; margin: 0; scroll-snap-align: start; scroll-snap-stop: normal; }
 .case-slide:last-child { scroll-snap-align: end; }
-.case-gallery-track.is-single .case-slide { flex-basis: 100%; }
+.case-gallery-track.is-single .case-slide { flex-basis: min(100%, calc(var(--gallery-height) * var(--media-ratio))); }
 .case-image-button { display: flex; flex-direction: column; align-items: stretch; width: 100%; min-width: 0; padding: 0; overflow: hidden; border: 1px solid #dfe5d7; border-radius: 14px; background: var(--white); color: inherit; text-align: left; cursor: inherit; }
 .case-image-button:hover { border-color: #acbd97; }
 .case-image-stage { display: block; width: 100%; height: var(--gallery-height); overflow: hidden; background: #f3f5f0; }

@@ -232,19 +232,11 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
-          "src": "./assets/media/k-newdeal-briefing-audience-20261120-v1.webp",
+          "src": "./assets/media/k-newdeal-briefing-audience-v2.webp",
           "width": 1920,
           "height": 1440,
           "alt": "참석자들이 자리한 K-뉴딜 사업 설명회 현장. 얼굴과 화면 내용은 모자이크 처리했습니다.",
           "caption": "K-뉴딜 사업 설명회 현장",
-          "kind": "photo"
-        },
-        {
-          "src": "./assets/media/k-newdeal-briefing-setup-20261120-v1.webp",
-          "width": 1920,
-          "height": 1440,
-          "alt": "K-뉴딜 사업 설명회 시작 전 안내자료와 좌석, 마이크가 준비된 행사장. 참석자 서류는 모자이크 처리했습니다.",
-          "caption": "설명회 시작 전 현장 세팅",
           "kind": "photo"
         }
       ],
@@ -331,7 +323,7 @@ window.PORTFOLIO_CONTENT = {
           "id": "education",
           "label": "교육운영지원",
           "summary": "Team-Mate와 취업캠프 외에 K-뉴딜 사업 설명회의 현장 운영과 출결확인서·참여확인서 발급 등 교육운영 행정을 지원했습니다.",
-          "role": "출결서류 발급 기준을 정리하고 발급을 자동화했습니다. K-뉴딜 사업 설명회에서는 참석자 명단 정리와 접수·현장 세팅·안내를 지원했습니다.",
+          "role": "출결서류 발급 기준을 정리하고 발급을 자동화했습니다. K-뉴딜 사업 설명회 5회의 현장 운영도 지원했습니다.",
           "sections": [
             {
               "title": "출결확인서·참여확인서 발급 자동화",
@@ -343,8 +335,8 @@ window.PORTFOLIO_CONTENT = {
             {
               "title": "K-뉴딜 사업 설명회 운영지원",
               "items": [
-                "교육기관 대상 설명회와 일경험 ESG형 설명회, 사업에 관심 있는 신규 기업·10대 그룹·금융권 대상 설명회 등 총 5회에서 운영을 지원했습니다. 회당 약 40~70명이 참석했습니다.",
-                "행사 전 참석자 명단 정리와 현장 세팅을 지원하고, 당일에는 접수와 참가자 안내를 맡았습니다."
+                "교육기관 대상 설명회, 일경험 ESG형 설명회, 사업에 관심 있는 신규 기업과 10대 그룹·금융권 대상 설명회까지 모두 5회를 도왔고, 회당 40~70명 정도가 참석했습니다.",
+                "행사 전에는 참석자 명단을 정리하고 현장을 세팅했고, 당일에는 접수와 참가자 안내를 맡았습니다."
               ]
             },
             {
@@ -358,8 +350,7 @@ window.PORTFOLIO_CONTENT = {
             }
           ],
           "imageFiles": [
-            "k-newdeal-briefing-audience-20261120-v1.webp",
-            "k-newdeal-briefing-setup-20261120-v1.webp"
+            "k-newdeal-briefing-audience-v2.webp"
           ],
           "outcomes": [
             "출결확인서·참여확인서 발급 매뉴얼(지금도 실무에서 사용)",

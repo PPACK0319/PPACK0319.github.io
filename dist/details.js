@@ -9,11 +9,13 @@
   const reEscape = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   // Phrases that read as one unit (세 차례, 59만 7,700원, 6개 학교, 신한 20+ 뛰어요) get no-break spaces
   // so a line never ends on the number or modifier alone.
+  // A short word joined by '·' (PM·기획, 서울대·건국대·고려대) stays on one line with the word after it.
+  const joinDots = (word) => word.split('·').reduce((out, part, index, parts) => index === 0 ? part : out + (parts[index - 1].replace(/^[(‘"]+/, '').length <= 4 ? '·\u2060' : '·') + part, '');
   const glue = (text) => String(text ?? '')
     .replace(/(^|[\s(‘])(한|두|세|네|다섯|약|총|각) (?=\S)/g, '$1$2\u00a0')
     .replace(/(\d[\d,.]*만) (?=\d)/g, '$1\u00a0')
     .replace(/(\d[\d,.]*(?:개|명|곳|편|건|회|부|종|가지)) (?=팀|학교|학과|구단|시군|읍면동|주제|구간|범주|문항|안팎)/g, '$1\u00a0')
-    .replace(/(신한|FC|Team-Mate) (?=20\+|엠제트|Libertz|\d+(?:~\d+)?기)/g, '$1\u00a0')
+    .replace(/(신한|FC|Team-Mate) (?=20\+|엠제트|MZ|Libertz|\d+(?:~\d+)?기)/g, '$1\u00a0')
     .replace(/(\d[\d,.]*(?:종|부)) (?=\d)/g, '$1\u00a0')
     .replace(/(\d+기) (?=[가-힣])/g, '$1\u00a0')
     .replace(/ \/ /g, '\u00a0/ ')
@@ -23,8 +25,12 @@
     .replace(/’(?=[가-힣])/g, '’\u2060')
     .replace(/ (역할?)(?=으로|로|을|를|이|은)/g, '\u00a0$1')
     .replace(/그 결과/g, '그\u00a0결과')
+    // Short closing nouns stay with the word before them, so a line never ends on them alone.
+    .replace(/ (?=(?:공모전|경진대회|조회수)(?:$|[\s.,)]))/g, '\u00a0')
     .replace(/([A-Za-z0-9])-(?=[A-Za-z0-9가-힣])/g, '$1-\u2060')
-    .replace(/20\+ 뛰어요/g, '20+\u00a0뛰어요');
+    .replace(/교육·행사운영지원/g, '교육·\u2060행사운영지원')
+    .replace(/20\+ 뛰어요/g, '20+\u00a0뛰어요')
+    .replace(/[^\s]+/g, (word) => word.length > 1 && word.includes('·') ? joinDots(word) : word);
   const rich = (text, figures = activeFigures, seen = activeSeen) => {
     const html = escape(glue(text));
     if (!figures?.length) return html;
@@ -32,6 +38,8 @@
     return html.replace(pattern, (match) => seen.has(match) ? match : (seen.add(match), `<strong class="num">${match}</strong>`));
   };
   const list = (items) => `<ul>${items.map((text) => `<li>${rich(text)}</li>`).join('')}</ul>`;
+  // An outside source for a section (e.g. a press release) opens in a new tab; only plain https links are rendered.
+  const sourceLink = (link) => link && /^https:\/\/[^\s"'<>]+$/.test(link.url ?? '') ? `<a class="case-link" href="${escape(link.url)}" target="_blank" rel="noopener noreferrer"><span class="case-link-label">${escape(link.label)}</span><span class="case-link-title">${escape(glue(link.title ?? link.label))}</span><span class="case-link-arrow" aria-hidden="true">↗</span></a>` : '';
   const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
   let disposeCurrent = () => {};
 
@@ -61,9 +69,11 @@
   }
 
 
+  // The award row is the one emphasis in a facts line; key figures it already shows are not bolded again below.
   function facts(rows,extraClass = '') {
     const values = rows.filter(([,value]) => value);
-    return values.length ? `<dl class="case-facts ${extraClass}">${values.map(([label,value]) => `<div><dt>${escape(label)}</dt><dd>${escape(glue(value))}</dd></div>`).join('')}</dl>` : '';
+    for (const [label,value] of values) if (label === '수상') for (const figure of activeFigures) if (value.includes(figure)) activeSeen.add(escape(glue(figure)));
+    return values.length ? `<dl class="case-facts ${extraClass}">${values.map(([label,value]) => `<div><dt>${escape(label)}</dt><dd>${label === '수상' ? `<strong class="award">${escape(glue(value))}</strong>` : escape(glue(value))}</dd></div>`).join('')}</dl>` : '';
   }
 
   function groupContent(item, group, multiple) {
@@ -77,7 +87,7 @@
     const intro = `<div class="case-group-intro">${multiple ? `<h3>${escape(glue(group.label))}</h3>` : ''}${projectFacts}${overview(group,role)}</div>`;
     const context = group.summary ? `<section class="case-context"><h4>활동 배경</h4><p>${rich(group.summary)}</p></section>` : '';
     const process = (group.sections ?? []).filter((part) => part.items?.length || part.subsections?.some(sub=>sub.items?.length)).map((part,index) => {
-      const contents = part.subsections?.length ? part.subsections.map((sub) => `<section class="case-work-subsection"><h5>${escape(sub.title)}</h5>${list(sub.items)}</section>`).join('') : list(part.items);
+      const contents = (part.subsections?.length ? part.subsections.map((sub) => `<section class="case-work-subsection"><h5>${escape(sub.title)}</h5>${list(sub.items)}</section>`).join('') : list(part.items)) + sourceLink(part.link);
       return part.subsections?.length ? `<details class="case-work"${index===0 ? ' open' : ''}><summary><h4>${escape(part.title)}</h4><span class="case-work-toggle" aria-hidden="true">＋</span></summary><div class="case-step-content">${contents}</div></details>` : `<section class="case-step"><div class="case-step-heading"><h4>${escape(part.title)}</h4></div><div class="case-step-content">${contents}</div></section>`;
     }).join('');
     return intro + context + `<div class="case-flow">${process}</div>` + gallery(selected,`${item.id}-${group.id}`) + (group.note ? `<aside class="case-note">${escape(group.note)}</aside>` : '');
@@ -91,7 +101,7 @@
     const collection = item.detailCollection;
     const meta = collection ? '' : facts([['기간',item.period],[item.type === 'competition' ? '대회' : '소속',item.organization],['참여',item.format],['수상',item.award]]);
     const header = `<p class="detail-eyebrow">${escape(collection ? typeLabel : item.hrdLabel ?? typeLabel)}</p><h2 id="detailTitle">${escape(glue(collection?.title ?? item.title))}</h2><p class="case-summary">${rich(collection?.summary ?? item.detailSummary ?? item.takeaway ?? item.summary)}</p>${meta}`;
-    const shortLabels = {'team-mate':'Team-Mate',camp:'취업캠프',education:'교육운영'};
+    const shortLabels = {'team-mate':'Team-Mate',camp:'취업캠프',education:'교육·행사운영지원'};
     const tabs = groups.length > 1 ? `<div class="case-tabs" role="tablist" aria-label="${escape(collection?.tabLabel ?? '담당 활동')}">${groups.map((group,index) => `<button type="button" id="case-tab-${index}" class="case-tab" data-case-tab="${index}" role="tab" aria-selected="${index === 0}" aria-controls="case-panel" tabindex="${index === 0 ? 0 : -1}">${escape(glue(group.tabLabel ?? shortLabels[group.id] ?? group.label))}</button>`).join('')}</div>` : '';
     const body = `<div class="case-body" data-case-body>${tabs}<div id="case-panel" class="case-panel" ${groups.length > 1 ? 'role="tabpanel" aria-labelledby="case-tab-0" tabindex="0"' : ''}>${groupContent(item,groups[0],groups.length > 1)}</div></div>`;
     return {header,body};

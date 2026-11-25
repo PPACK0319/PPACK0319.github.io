@@ -11,12 +11,12 @@ window.PORTFOLIO_CONTENT = {
       "id": "kcci",
       "type": "work",
       "title": "대한상공회의소 인력개발사업단 인턴",
-      "subtitle": "현장실습 · Team-Mate 멘토멘티단, 취업캠프, 교육운영 지원",
+      "subtitle": "현장실습 · Team-Mate 멘토멘티단, 취업캠프, 교육·행사운영지원",
       "period": "2026.07–2026.12",
       "organization": "대한상공회의소 인력개발사업단",
       "summary": "KDT·K-뉴딜 참여청년을 위한 Team-Mate 멘토멘티단과 취업캠프를 맡아, 기획과 품의부터 현장 운영과 결과보고까지 경험했습니다. Team-Mate 4기 수료식에서는 직접 사회도 맡았습니다.",
       "background": "대한상공회의소 인력개발사업단 현장실습에서 한 일은 크게 세 가지였습니다. KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 이어서 돕는 Team-Mate 멘토멘티단과 취업캠프, 그리고 사업 운영에 필요한 교육행정입니다.",
-      "role": "Team-Mate 멘토멘티단·취업캠프 기획과 예산·품의자료 작성, 현장 운영, 사후 증빙과 결과보고. 4기 수료식 사회와 교육운영 행정 지원.",
+      "role": "Team-Mate 멘토멘티단·취업캠프 기획과 예산·품의자료 작성, 현장 운영, 사후 증빙과 결과보고. 4기 수료식 사회와 교육·행사운영지원.",
       "outcomes": [
         "Team-Mate: 회고 원고와 활동비 품의·증빙, 원팀데이 운영자료, 수료식 기획안·사회자 대본·결과보고서",
         "취업캠프: 세 차례 운영자료·홍보 문안·운영비 품의자료, 9월 결과보고, 10월 결과·증빙 합본",
@@ -24,7 +24,7 @@ window.PORTFOLIO_CONTENT = {
       ],
       "tags": [
         "취업 후속 지원",
-        "교육 운영",
+        "교육·행사운영지원",
         "행사 기획",
         "교육행정",
         "결과보고"
@@ -132,17 +132,17 @@ window.PORTFOLIO_CONTENT = {
           ]
         },
         {
-          "title": "교육운영 지원",
+          "title": "교육·행사운영지원",
           "items": [
             "K-뉴딜 사업이 새로 시작됐을 때 출결확인서·출석부 양식과 발급 기준이 정리돼 있지 않아, 기존 KDT 매뉴얼을 참고해 정리한 뒤 기업 관계자에게 전달했습니다. 이 매뉴얼은 지금도 실무에서 쓰이고 있습니다.",
             "신청 메일 수집부터 PDF 발급까지는 AI로 자동화하고, 발송 전에는 한 건씩 직접 확인했습니다. 여러 건 처리 시간이 제 체감으로 30분에서 5분 정도로 줄었습니다(따로 잰 수치는 아닙니다).",
             "그 밖에 참여확인서 발급, 교육행정 자료 통합·검산, 교육 정책 클리핑, 대학 홍보 리포트, 인수인계서 개정 초안 작업도 했습니다.",
             "교육기관 대상 설명회와 일경험 ESG형 설명회, 사업에 관심 있는 신규 기업·10대 그룹·금융권 대상 설명회 등 총 5회(회당 약 40~70명)에서 참석자 명단 정리와 접수·현장 세팅·안내를 지원했습니다.",
-            "전국상공회의소–고용노동부 정책 간담회 등 행사 운영을 지원했습니다. 업무분장에 따라 볼펜·명패·명찰·자료 등 행사 물품 준비와 미도착 참석자 확인·전달을 맡았습니다."
+            "전국상공회의소–고용노동부 정책 간담회 등 행사 운영을 지원했습니다. 볼펜·명패·명찰·자료 등 행사 물품 준비와 미도착 참석자 확인·전달을 맡았습니다."
           ]
         }
       ],
-      "subprojectsTitle": "교육운영 지원 세부",
+      "subprojectsTitle": "교육·행사운영지원 세부",
       "images": [
         {
           "src": "./assets/media/team-mate-oneteam-group-v10.webp",
@@ -241,11 +241,11 @@ window.PORTFOLIO_CONTENT = {
           "kind": "photo"
         },
         {
-          "src": "./assets/media/events-policy-meeting-support-collage-20261124-v1.webp",
-          "width": 1800,
-          "height": 1364,
-          "alt": "전국상공회의소–고용노동부 정책 간담회의 직원 명찰, 행사 안내 화면, 박중훈의 준비·참석자 확인 업무가 적힌 업무분장표 일부",
-          "caption": "정책 간담회 행사 준비와 업무분장",
+          "src": "./assets/media/events-policy-meeting-support-v2.webp",
+          "width": 1804,
+          "height": 1199,
+          "alt": "전국상공회의소–고용노동부 정책 간담회의 STAFF 명찰과 간담회장 앞 행사 안내 화면(11월 24일 16시)",
+          "caption": "정책 간담회 행사 준비",
           "kind": "photo"
         }
       ],
@@ -330,9 +330,9 @@ window.PORTFOLIO_CONTENT = {
         },
         {
           "id": "education",
-          "label": "교육운영지원",
-          "summary": "Team-Mate와 취업캠프 외에 K-뉴딜 사업 설명회의 현장 운영, 정책 간담회 등 행사 준비와 출결확인서·참여확인서 발급 등 교육운영 행정을 지원했습니다.",
-          "role": "출결서류 발급 기준을 정리하고 발급을 자동화했습니다. K-뉴딜 사업 설명회 5회의 현장 운영과 정책 간담회 등 행사 준비도 지원했습니다.",
+          "label": "교육·행사운영지원",
+          "summary": "Team-Mate와 취업캠프 외의 교육·행사운영지원 업무로, 출결확인서와 참여확인서 발급, K-뉴딜 사업 설명회와 정책 간담회 운영을 도왔습니다.",
+          "role": "출결서류 발급 기준을 정리하고 발급을 자동화했습니다. K-뉴딜 사업 설명회 5회와 정책 간담회의 현장 운영도 지원했습니다.",
           "sections": [
             {
               "title": "출결확인서·참여확인서 발급 자동화",
@@ -349,11 +349,16 @@ window.PORTFOLIO_CONTENT = {
               ]
             },
             {
-              "title": "행사 운영지원",
+              "title": "정책 간담회 운영지원",
               "items": [
-                "전국상공회의소–고용노동부 정책 간담회 등 행사 운영을 지원했습니다.",
-                "업무분장에 따라 볼펜·명패·명찰·자료 등 행사 물품 준비와 미도착 참석자 확인·전달을 맡았습니다."
-              ]
+                "11월 24일 대한상공회의소에서 열린 전국상공회의소–고용노동부 정책 간담회의 행사 준비를 도왔습니다.",
+                "명패와 명찰, 자료 같은 행사 물품을 준비하고, 시작 전 참석자 도착 여부를 확인해 전달했습니다."
+              ],
+              "link": {
+                "label": "고용노동부 보도자료 (2026.11.24)",
+                "title": "고용노동부와 전국 상공회의소, 일자리 창출과 청년 일할 기회 확대를 위해 힘 모으기로!",
+                "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=20297"
+              }
             },
             {
               "title": "그 밖의 업무",
@@ -367,23 +372,24 @@ window.PORTFOLIO_CONTENT = {
           ],
           "imageFiles": [
             "k-newdeal-briefing-audience-v2.webp",
-            "events-policy-meeting-support-collage-20261124-v1.webp"
+            "events-policy-meeting-support-v2.webp"
           ],
           "outcomes": [
             "출결확인서·참여확인서 발급 매뉴얼(지금도 실무에서 사용)",
             "신청 메일 수집부터 PDF 발급까지 자동화",
             "사업 설명회 5회 운영지원(회당 약 40~70명)",
-            "정책 간담회 등 행사 준비·현장 지원"
+            "고용노동부 정책 간담회 행사 준비"
           ]
         }
       ],
-      "detailSummary": "KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 돕는 사업에서 Team-Mate 4기와 취업캠프를 맡았습니다. 원팀데이와 4기 수료식을 준비해 수료식 사회까지 봤고, 교육운영 지원에서는 출결확인서와 참여확인서 발급을 자동화했습니다.",
+      "detailSummary": "KDT·K-뉴딜 참여청년의 취업을 교육 이후에도 돕는 사업에서 Team-Mate 4기와 취업캠프를 맡았습니다. 원팀데이와 4기 수료식을 준비해 수료식 사회까지 봤고, 교육·행사운영지원에서는 출결서류 발급을 자동화하고 설명회와 정책 간담회 운영을 도왔습니다.",
       "keyFigures": [
         "5개 팀 모두 완주",
         "33명",
         "50명",
         "9.3~9.8점"
-      ]
+      ],
+      "competency": "practice"
     },
     {
       "id": "koica",
@@ -527,7 +533,8 @@ window.PORTFOLIO_CONTENT = {
         "215명",
         "68.5%",
         "실습교재 3편"
-      ]
+      ],
+      "competency": "adaptation"
     },
     {
       "id": "veterans",
@@ -818,9 +825,11 @@ window.PORTFOLIO_CONTENT = {
         ]
       },
       "keyFigures": [
-        "47곳",
-        "305개 읍면동"
-      ]
+        "국가보훈부 장관상",
+        "최우수상",
+        "우수상"
+      ],
+      "competency": "data"
     },
     {
       "id": "geocup",
@@ -984,7 +993,8 @@ window.PORTFOLIO_CONTENT = {
       ],
       "keyFigures": [
         "720병"
-      ]
+      ],
+      "competency": "communication"
     },
     {
       "id": "shinhan",
@@ -1205,7 +1215,8 @@ window.PORTFOLIO_CONTENT = {
       "detailSummary": "팀 S:oar에서 3C·STP·4P 프레임워크로 인사이트 보고서를 기획해 공모전 최우수팀에 선정됐고, 제안 사항은 이후 실제 서비스에 반영됐습니다. 홍보대사 활동에서는 매달 콘텐츠 기획안과 발표 원고를 쓰고 촬영에 참여했습니다.",
       "keyFigures": [
         "1,117,337회"
-      ]
+      ],
+      "competency": "communication"
     },
     {
       "id": "fcmz",
@@ -1327,7 +1338,8 @@ window.PORTFOLIO_CONTENT = {
             "문과대학 축구동아리 FC Libertz로 승격하는 기틀 마련"
           ]
         }
-      ]
+      ],
+      "competency": "communication"
     },
     {
       "id": "team-mate",
@@ -2539,6 +2551,180 @@ window.PORTFOLIO_CONTENT = {
     {
       "name": "자동차운전면허 1종보통",
       "date": "2021.01.20"
+    }
+  ],
+  "competencies": [
+    {
+      "id": "practice",
+      "name": "실무 경험",
+      "summary": "대한상공회의소 인력개발사업단 현장실습에서 Team-Mate 4기 운영과 4기 수료식 사회, 7~11월 취업캠프, 교육·행사운영지원을 맡았습니다.",
+      "stats": [
+        {
+          "value": 19,
+          "suffix": "명",
+          "label": "Team-Mate 4기 참여, 5개 팀 모두 완주"
+        },
+        {
+          "value": 50,
+          "suffix": "명",
+          "label": "취업캠프 참석(7~11월 5회)"
+        },
+        {
+          "value": 5,
+          "suffix": "회",
+          "label": "K-뉴딜 사업 설명회 운영지원"
+        }
+      ],
+      "links": [
+        {
+          "label": "Team-Mate 4기",
+          "experience": "kcci",
+          "tab": 0
+        },
+        {
+          "label": "취업캠프",
+          "experience": "kcci",
+          "tab": 1
+        },
+        {
+          "label": "교육·행사운영지원",
+          "experience": "kcci",
+          "tab": 2
+        }
+      ],
+      "image": {
+        "src": "./assets/media/team-mate-oneteam-group-v10.webp",
+        "alt": "Team-Mate 원팀데이 현수막 아래 참가자들이 함께 모인 단체사진",
+        "position": "center 52%",
+        "width": 1600,
+        "height": 1067
+      }
+    },
+    {
+      "id": "data",
+      "name": "데이터 활용 능력",
+      "summary": "공공데이터 공모전 세 곳에서 논문으로 검증된 분석 방법을 바탕으로 과제를 기획하고, AI의 도움을 받아 Python으로 데이터를 전처리해 ArcGIS와 QGIS로 지도에 시각화했습니다.",
+      "stats": [
+        {
+          "text": "장관상",
+          "label": "2025 보훈 공공데이터 활용 및 데이터 분석 공모전 우수상"
+        },
+        {
+          "text": "우수상",
+          "label": "2024 경상남도 빅데이터 분석 공모전"
+        },
+        {
+          "text": "최우수상",
+          "label": "2024년 제3회 영천시 공공데이터 활용 경진대회"
+        }
+      ],
+      "links": [
+        {
+          "label": "2025 보훈",
+          "experience": "veterans",
+          "tab": 0
+        },
+        {
+          "label": "2024 경남",
+          "experience": "veterans",
+          "tab": 1
+        },
+        {
+          "label": "2024 영천",
+          "experience": "veterans",
+          "tab": 2
+        }
+      ],
+      "image": {
+        "src": "./assets/media/veterans-award-team-photo.webp",
+        "alt": "2025 보훈 공공데이터 공모전 우수상 수상 기념사진",
+        "position": "center 40%",
+        "width": 1107,
+        "height": 1600
+      }
+    },
+    {
+      "id": "communication",
+      "name": "커뮤니케이션 능력",
+      "summary": "신한은행 대학생 홍보대사 팀 S:oar에서 매달 콘텐츠 기획안을 쓰고 영상에 출연해 44기 최종 우수팀에 선정됐습니다. 지오컵 운영위원회에서는 후원 제안서로 음료를 지원받았고, FC 엠제트는 창단해 문과대학 축구동아리로 승격하는 기틀을 마련했습니다.",
+      "stats": [
+        {
+          "value": 1117337,
+          "suffix": "회",
+          "label": "S:oar 팀 계정 누적 조회수"
+        },
+        {
+          "value": 720,
+          "suffix": "병",
+          "label": "지오컵 음료 후원 유치"
+        },
+        {
+          "text": "최종 우수팀",
+          "label": "신한은행 대학생 홍보대사 44기"
+        }
+      ],
+      "links": [
+        {
+          "label": "신한은행 대학생 홍보대사",
+          "experience": "shinhan",
+          "tab": 1
+        },
+        {
+          "label": "인사이트 보고서 공모전",
+          "experience": "shinhan",
+          "tab": 0
+        },
+        {
+          "label": "지오컵 운영위원회",
+          "experience": "geocup"
+        },
+        {
+          "label": "FC 엠제트",
+          "experience": "fcmz"
+        }
+      ],
+      "image": {
+        "src": "./assets/media/shinhan-final-award-photo.webp",
+        "alt": "신한은행 대학생 홍보대사 44기 최종 우수팀 선정 기념사진",
+        "position": "center 22%",
+        "width": 1200,
+        "height": 1600
+      }
+    },
+    {
+      "id": "adaptation",
+      "name": "적응 능력",
+      "summary": "KOICA 프로젝트 봉사단 1기로 가나 코포리두아시에 3개월간 파견돼, 현지 교사 ICT 기초선 조사와 엑셀·워드 실습교재 제작에 참여하고 팀 성과관리를 맡았습니다.",
+      "stats": [
+        {
+          "value": 215,
+          "suffix": "명",
+          "label": "교사 ICT 기초선 조사 응답"
+        },
+        {
+          "value": 3,
+          "suffix": "개월",
+          "label": "가나 코포리두아시 파견"
+        },
+        {
+          "value": 21,
+          "suffix": "명",
+          "label": "교사 파일럿 수업 참여"
+        }
+      ],
+      "links": [
+        {
+          "label": "KOICA 프로젝트 봉사단 가나",
+          "experience": "koica"
+        }
+      ],
+      "image": {
+        "src": "./assets/media/koica-performance-sharing-group-v8.webp",
+        "alt": "KOICA 프로젝트 봉사단 성과보고회 단체사진",
+        "position": "center 30%",
+        "width": 857,
+        "height": 690
+      }
     }
   ]
 };

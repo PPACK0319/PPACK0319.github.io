@@ -33,13 +33,66 @@
   }
   // Representative cards stay selected; awarded collection members also open from their award rows.
   const isFeatured = (id) => content.experiences.some((item) => item.id === id && item.hrd) || content.experiences.some((item) => item.detailCollection?.experienceIds?.includes(id));
+  const competencies = content.competencies ?? [];
+  const competencyOf = (item) => competencies.find((entry) => entry.id === item.competency);
+  // Cards follow the competency order, and inside one competency the order of its activity chips.
+  const competencyRank = (item) => {
+    const rank = competencies.findIndex((entry) => entry.id === item.competency);
+    if (rank < 0) return competencies.length * 100;
+    const chip = competencies[rank].links?.findIndex((link) => link.experience === item.id) ?? -1;
+    return rank * 100 + (chip < 0 ? 99 : chip);
+  };
+  const themes = ['theme-dark', 'theme-soft', 'theme-cobalt', 'theme-light'];
+  const statValue = (stat) => stat.text ? `<span class="stat-value">${escape(stat.text)}</span>` : `<span class="stat-value"><span data-count="${Number(stat.value)}">${Number(stat.value).toLocaleString('ko-KR')}</span><small>${escape(stat.suffix ?? '')}</small></span>`;
+  // Four competencies come first; each chip opens the activity (and tab) it is drawn from.
+  function renderCompetencies() {
+    const stack = $('#competencyStack');
+    if (!stack) return;
+    stack.innerHTML = competencies.map((entry, index) => {
+      const image = safeAsset(entry.image?.src) ? `<figure class="comp-media"><img src="${escape(entry.image.src)}" alt="${escape(entry.image.alt)}" loading="lazy" decoding="async" style="--pos:${escape(entry.image.position ?? 'center')}"></figure>` : '';
+      const stats = (entry.stats ?? []).map((stat) => `<div class="comp-stat">${statValue(stat)}<span class="stat-label">${escape(window.PortfolioDetails.glue(stat.label))}</span></div>`).join('');
+      const links = (entry.links ?? []).filter((link) => content.experiences.some((item) => item.id === link.experience)).map((link) => `<button type="button" class="comp-link" data-experience="${escape(link.experience)}"${Number.isInteger(link.tab) ? ` data-tab="${link.tab}"` : ''}>${escape(window.PortfolioDetails.glue(link.label))}</button>`).join('');
+      // Wide photos get a wider column and keep their own shape; tall ones are trimmed only a little.
+      const ratio = Number(entry.image?.width) / Number(entry.image?.height) || 1;
+      const box = Math.min(Math.max(ratio, 0.9), 1.34);
+      return `<article class="comp-card ${themes[index % themes.length]}${ratio >= 1.15 ? ' is-wide' : ''}" id="competency-${escape(entry.id)}" style="--i:${index};--box:${box.toFixed(3)}" aria-labelledby="competency-${escape(entry.id)}-name"><div class="comp-copy"><h3 class="comp-name" id="competency-${escape(entry.id)}-name">${escape(entry.name)}</h3><p class="comp-summary">${escape(window.PortfolioDetails.glue(entry.summary))}</p><div class="comp-stats">${stats}</div><div class="comp-links" aria-label="${escape(entry.name)} 관련 활동">${links}</div></div>${image}</article>`;
+    }).join('');
+  }
+  function renderMarquee() {
+    const track = $('#marqueeTrack');
+    if (!track || !content.awards?.length) return;
+    const items = content.awards.map((award) => `<span class="marquee-item">${escape(award.title)} <em>${escape(award.award.split(' · ')[0])}</em></span>`).join('');
+    // Two identical halves let the band loop by sliding exactly half its width.
+    track.innerHTML = `<div class="marquee-half">${items}</div><div class="marquee-half">${items}</div>`;
+  }
+  let activeFilter = 'all';
+  function renderFilter() {
+    const filter = $('#experienceFilter');
+    if (!filter) return;
+    const used = competencies.filter((entry) => content.experiences.some((item) => item.hrd && item.competency === entry.id));
+    filter.innerHTML = [{id:'all', name:'전체'}, ...used].map((entry) => `<button type="button" class="pill-tab" data-filter="${escape(entry.id)}" aria-pressed="${entry.id === activeFilter}">${escape(entry.name)}</button>`).join('');
+    filter.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-filter]');
+      if (!button || button.dataset.filter === activeFilter) return;
+      activeFilter = button.dataset.filter;
+      for (const pill of filter.querySelectorAll('[data-filter]')) pill.setAttribute('aria-pressed', String(pill === button));
+      let shown = 0;
+      for (const card of grid.querySelectorAll('.experience-card')) {
+        const match = activeFilter === 'all' || card.dataset.competency === activeFilter;
+        card.classList.toggle('is-filtered', !match);
+        card.classList.remove('is-entering');
+        if (match) { void card.offsetWidth; card.style.setProperty('--n', shown++); card.classList.add('is-entering'); }
+      }
+    });
+  }
   function renderCards() {
-    const items = content.experiences.filter((item) => item.hrd);
+    const items = content.experiences.filter((item) => item.hrd).map((item, order) => ({item, order})).sort((a, b) => competencyRank(a.item) - competencyRank(b.item) || a.order - b.order).map(({item}) => item);
     grid.setAttribute('aria-busy', 'false');
     grid.innerHTML = items.map((item) => {
       const first = imagesFor(item)[0];
       const media = first ? `<div class="card-media${first.kind === 'photo' ? ' is-photo' : ''}${Number(first.height) > Number(first.width) * 1.2 ? ' is-portrait' : ''}"><img src="${escape(safeAsset(first.src))}" alt="${escape(first.alt)}" width="${Number(first.width) || 1200}" height="${Number(first.height) || 800}" loading="lazy" decoding="async"></div>` : '';
-      return `<button type="button" class="experience-card${first ? '' : ' is-text'}" data-experience="${escape(item.id)}" aria-label="${escape(item.title)} 자세히 보기">${media}<div class="card-content"><span class="category-label">${escape(window.PortfolioDetails.glue(item.hrdLabel ?? labels[item.type]))}</span><h3>${escape(window.PortfolioDetails.glue(item.title))}</h3><p class="card-summary">${window.PortfolioDetails.rich(item.takeaway ?? item.summary, item.keyFigures, new Set())}</p><span class="card-period">${escape(item.period)}</span></div></button>`;
+      const tag = competencyOf(item)?.name ?? item.hrdLabel ?? labels[item.type];
+      return `<button type="button" class="experience-card${first ? '' : ' is-text'}" data-experience="${escape(item.id)}" data-competency="${escape(item.competency ?? '')}" data-reveal aria-label="${escape(item.title)} 자세히 보기">${media}<div class="card-content"><span class="card-tag">${escape(tag)}</span><h3>${escape(window.PortfolioDetails.glue(item.title))}</h3><p class="card-summary">${window.PortfolioDetails.rich(item.takeaway ?? item.summary, item.keyFigures, new Set())}</p><span class="card-period">${escape(item.period)}</span></div></button>`;
     }).join('');
   }
   function renderAwards() {
@@ -81,7 +134,7 @@
     window.PortfolioDetails.clear();
     dialog.classList.remove('experience-detail');
     currentId = null;
-    header.innerHTML = '<p class="detail-eyebrow">프로필</p><h2 id="detailTitle">박중훈 <span class="profile-english">Park JungHun</span></h2><div class="detail-takeaway"><span>한 줄 소개</span><p>소통은 유연하게, AI는 능숙하게.</p></div><p class="detail-summary">' + escape([...document.querySelectorAll('.profile-info > div')].map((row) => `${row.querySelector('dt').textContent} ${row.querySelector('dd').textContent}`).join(' · ')) + '</p>';
+    header.innerHTML = '<p class="detail-eyebrow">프로필</p><h2 id="detailTitle">박중훈 <span class="profile-english">Park JungHun</span></h2><div class="detail-takeaway"><span>한 줄 소개</span><p>소통은 유연하게, AI는 능숙하게.</p></div><p class="detail-summary">' + escape([...document.querySelectorAll('.profile-info > div[data-summary]')].map((row) => `${row.querySelector('dt').textContent} ${row.querySelector('dd').textContent}`).join(' · ')) + '</p>';
     body.innerHTML = section('학업', paragraph(content.profile?.education ?? '건국대학교 지리학과 / 기술경영학과 복수전공')) + section('학점', content.profile?.gpa ? paragraph([content.profile.gpa, content.profile.gpaNote].filter(Boolean).join(' · ')) : '') + section('자격증', content.certifications?.length ? list(content.certifications.map((cert) => `${cert.name} · ${cert.date}`)) : '') + section('주요 이력', content.journey.map((row) => `<div class="profile-history"><strong>${escape(row.title)}</strong><p>${escape(row.period)}${row.periodNote ? ' · '+escape(row.periodNote) : ''} · ${escape(row.role)}</p></div>`).join('')) + section('학업·활동 수상', content.awards.some((award) => award.profile) ? list(content.awards.filter((award) => award.profile).map((award) => `${award.title} · ${award.award} · ${award.date}`)) : '') + section('다루는 도구', '<p>Excel · PowerPoint · 한글(HWP) · Word · ArcGIS · QGIS · AI(ChatGPT Codex, Claude Code)</p>');
     $('#copyDetail').hidden = true;
     showDialog(dialog);
@@ -154,12 +207,14 @@
   $('#closeActions').addEventListener('click', () => closeDialog(actionDialog));
   $('#sharePortfolio').addEventListener('click', () => { closeDialog(actionDialog); copyLink(); });
     for (const selector of ['#printResume', '#printJourney', '#printPortfolio']) $(selector).addEventListener('click', printSummary);
-  $('#goTop').addEventListener('click', () => { closeDialog(actionDialog); $('#profile').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'}); });
+  $('#goTop').addEventListener('click', () => { closeDialog(actionDialog); window.scrollTo({top:0, behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'}); });
   function syncHash() { if (location.hash.startsWith('#experience/')) { let id; try { id = decodeURIComponent(location.hash.slice(12)); } catch { return; } openExperience(id, true); } else if (dialog.open && currentId) closeDialog(dialog); }
   window.addEventListener('hashchange', syncHash);
   window.addEventListener('popstate', syncHash);
   if (!content?.experiences?.length) { grid.setAttribute('aria-busy','false'); grid.innerHTML = '<p class="empty-state">경험 정보를 불러오지 못했습니다. 페이지를 새로고침해 주세요.</p>'; announce('경험 정보를 불러오지 못했습니다.', true); return; }
   if ($('#profileGpa') && content.profile?.gpa) $('#profileGpa').textContent = content.profile.gpa;
   if ($('#profileCertifications') && content.certifications?.length) $('#profileCertifications').innerHTML = content.certifications.map((cert) => `<li>${escape(cert.name.replace('정보기술자격 ITQ','ITQ'))}</li>`).join('');
-  renderCards(); renderAwards(); syncHash();
+  renderCompetencies(); renderMarquee(); renderFilter(); renderCards(); renderAwards(); syncHash();
+  window.PortfolioMotion?.observe();
+  document.dispatchEvent(new CustomEvent('portfolio:rendered'));
 })();
